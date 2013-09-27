@@ -36,8 +36,9 @@
 
     <section class="contact">
 
+    <br />
     <div class="content-wrapper">
-        <div class="float-left">
+        <div class="resume-download">
             <p>Download Resume: <a href="/Content/Documents/Resume2013.docx" target="_blank">.docx</a> | <a href="/Content/Documents/Resume2013.pdf" target="_blank">.pdf</a></p>
         </div>
     </div>

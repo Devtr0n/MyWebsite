@@ -197,8 +197,12 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\github.png" />
     <Content Include="Images\heroAccent.png" />
     <Content Include="Images\instagram.png" />
+    <Content Include="Images\mcp_certification.png" />
+    <Content Include="Images\mcts_certification.png" />
     <Content Include="Images\orderedList0.png" />
     <Content Include="Images\orderedList1.png" />
     <Content Include="Images\orderedList2.png" />
@@ -209,6 +213,9 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
+    <Content Include="Images\stackexchange.png" />
+    <Content Include="Images\twitter.png" />
+    <Content Include="Images\youtube.png" />
     <Content Include="Media.aspx" />
     <Content Include="packages.config" />
     <Content Include="Content\Documents\Resume2013.docx" />

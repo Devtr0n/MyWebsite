@@ -43,72 +43,72 @@
     </section>
 
     <section class="contact">
-
+       
         <header>
-            <h2>via Stack Exchange</h2>
+            <h2><a href="http://stackexchange.com/users/18017/d3vtr0n" target="_blank" title="View My Stack Exchange Profile" class="aContact">via Stack Exchange</a></h2>
         </header>
 
         <p>
-            <a href="http://stackexchange.com/users/18017/d3vtr0n" target="_blank" title="View My Stack Exchange Profile">
-                <asp:Image ID="imgStackOverflow" runat="server" ImageUrl="~/Images/stackoverflow.png"/>
+            <a href="http://stackexchange.com/users/18017/d3vtr0n" target="_blank" title="View My Stack Exchange Profile" class="aContact">
+                <asp:Image ID="imgStackOverflow" runat="server" alt="View Stack Exchange Profile" ImageUrl="~/Images/stackexchange.png"/>
             </a>
         </p>
 
         <header>
-            <h2>via LinkedIn</h2>
+            <h2><a href="http://www.linkedin.com/in/richardhollon" target="_blank" title="View My LinkedIn Profile" class="aContact">via LinkedIn</a></h2>
         </header>
 
         <p>
-            <a href="http://www.linkedin.com/in/richardhollon" target="_blank" title="View My LinkedIn Profile">
-                <img alt="View LinkedIn Profile" src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.gif">
+            <a href="http://www.linkedin.com/in/richardhollon" target="_blank" title="View My LinkedIn Profile" class="aContact">
+                <img id="imgLinkedIn" alt="View My LinkedIn Profile" src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.gif">
+            </a>
+        </p>
+   
+        <header>
+            <h2><a href="http://www.instagram.com/nekotakacho" target="_blank" title="View My Instagram" class="aContact">via Instagram</a></h2>
+        </header>
+
+        <p>
+            <a href="http://www.instagram.com/nekotakacho" target="_blank" title="View My Instagram" class="aContact">
+                <asp:Image ID="imgInstagram" runat="server" alt="View My Instagram Profile" ImageUrl="~/Images/instagram.png"/>
             </a>
         </p>
 
         <header>
-            <h2>via GitHub</h2>
+            <h2><a href="http://www.youtube.com/blueberryfarm" target="_blank" title="View My Youtube Channel" class="aContact">via YouTube</a></h2>
         </header>
+
         <p>
-            <a href="https://github.com/Devtr0n" target="_blank" title="View My GitHub">
-                GitHub
+            <a href="http://www.youtube.com/blueberryfarm" target="_blank" title="View My Youtube Channel" class="aContact">
+                <asp:Image ID="imgYoutube" runat="server" alt="View My YouTube Channel" ImageUrl="~/Images/youtube.png"/>
             </a>
         </p>
 
         <header>
-            <h2>via Instagram</h2>
+            <h2><a href="https://twitter.com/nekotakacho" target="_blank" title="View My Twitter Feed" class="aContact">via Twitter</a></h2>
         </header>
 
         <p>
-            <a href="http://www.instagram.com/nekotakacho" target="_blank" title="View My Instagram">
-                <asp:Image ID="imgInstagram" runat="server" ImageUrl="~/Images/instagram.png"/>
+            <a href="https://twitter.com/nekotakacho" target="_blank" title="View My Twitter Feed" class="aContact">
+                <asp:Image ID="imgTwitter" runat="server" alt="View My Twitter Feed" ImageUrl="~/Images/twitter.png"/>
             </a>
         </p>
 
         <header>
-            <h2>via YouTube</h2>
+            <h2><a href="http://www.facebook.com/nekotakacho" target="_blank" title="View My Facebook" class="aContact">via Facebook</a></h2>
         </header>
-
         <p>
-            <a href="http://www.youtube.com/blueberryfarm" target="_blank" title="View My Youtube Channel">
-                Youtube
+            <a href="http://www.facebook.com/nekotakacho" target="_blank" title="View My Facebook" class="aContact">
+                <asp:Image ID="imgFacebook" runat="server" alt="View My Facebook Profile" ImageUrl="~/Images/facebook.png"/>
             </a>
         </p>
 
         <header>
-            <h2>via Twitter</h2>
+            <h2><a href="https://github.com/Devtr0n" target="_blank" title="View My GitHub" class="aContact">via GitHub</a></h2>
         </header>
-
-        <p>
-            <a href="https://twitter.com/nekotakacho" target="_blank" title="View My Twitter">
-                Twitter
-            </a>
-        </p>
-
-        <header>
-            <h2>via Facebook</h2>
-        </header>
-        <p>
-            <a href="http://www.facebook.com/nekotakacho" target="_blank" title="View My Facebook">
-                Facebook
+        <p class="aContact">
+            <a href="https://github.com/Devtr0n" target="_blank" title="View My GitHub"  class="aContact">
+                <asp:Image class="aContact" ID="imgGitHub" runat="server" ImageUrl="~/Images/github.png"/>
             </a>
         </p>
 

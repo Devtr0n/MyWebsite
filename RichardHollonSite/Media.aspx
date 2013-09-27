@@ -41,7 +41,7 @@
 
             foreach (var v in rndYoutubeFeed.Take(6))
             { %>
-            <object width="30" height="15">
+            <object>
                 <param name="movie" value="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" />
                 <param name="allowFullScreen" value="true" />
                 <param name="allowscriptaccess" value="always"/>
