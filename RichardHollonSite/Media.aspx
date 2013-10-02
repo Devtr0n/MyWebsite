@@ -105,8 +105,13 @@
                   { latLng: [32.627833, 129.738588], data: "Gunkanjima - Nagasaki, Japan." },
                   { latLng: [14.599512, 120.98422], data: "Shangrila Hotel - Manila, Philippines." },
                   { latLng: [48.858229, 2.294388], data: "Eiffel Tower - Paris, France." },
+                  { latLng: [21.277378, 40.421068], data: "Taif - Al-Sarawat Mountains" },
+                  { latLng: [34.302208, 132.322026], data: "Miyajima/Itsukushima 厳島 Island" },
                   { latLng: [51.47238, -0.45094], data: "Heathrow Airport - London UK." }
                   /* 
+
+                  
+
                   Melbourne
                   Adelaide
                   Seacliff
