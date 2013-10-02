@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<script type="text/javascript" src="Scripts/menudock/jquery.js"></script>
+<script type="text/javascript" src="Scripts/menudock/interface.js"></script>
+
+<!--<link href="Content/menudock.css" rel="stylesheet" type="text/css" />-->
+</head>
+<body>
+
+    <style>
+            /* dock - top */
+            .dock {
+	            position: relative; 
+	            height: 50px; 
+	            text-align: center;
+            }
+            .dock-container {
+	            position: absolute;
+	            height: 50px;
+	            padding-left: 20px;
+            }
+            a.dock-item {
+	            display: block;
+	            width: 40px;
+	            color: #000;
+	            position: absolute;
+	            top: 0px;
+	            text-align: center;
+	            text-decoration: none;
+	            font: bold 12px Arial, Helvetica, sans-serif;
+            }
+            .dock-item img {
+	            border: none; 
+	            margin: 5px 10px 0px; 
+	            width: 100%; 
+            }
+            .dock-item span {
+	            display: none; 
+	            padding-left: 20px;
+            }
+
+    </style>
+
+    <div class="dock" id="dock">
+        <div class="dock-container">
+            <a class="dock-item" href="~/About.aspx"><img src="Images/menudock/home.png" alt="About" /><span>About</span></a> 
+            <a class="dock-item" href="~/Resume.aspx"><img src="Images/menudock/email.png" alt="Resume" /><span>Resume</span></a> 
+            <a class="dock-item" href="~/Portfolio.aspx"><img src="Images/menudock/portfolio.png" alt="Portfolio" /><span>Portfolio</span></a> 
+            <a class="dock-item" href="~/Blog.aspx"><img src="Images/menudock/music.png" alt="Blog" /><span>Blog</span></a> 
+            <a class="dock-item" href="~/Media.aspx"><img src="Images/menudock/video.png" alt="Media" /><span>Media</span></a> 
+            <a class="dock-item" href="~/Contact.aspx"><img src="Images/menudock/history.png" alt="Contact" /><span>Contact</span></a> 
+        </div>
+    </div>
+
+<script type="text/javascript">
+
+    $(document).ready(
+		function () {
+		    $('#dock').Fisheye(
+				{
+				    maxWidth: 50,
+				    items: 'a',
+				    itemsText: 'span',
+				    container: '.dock-container',
+				    itemWidth: 40,
+				    proximity: 90,
+				    halign: 'center'
+				}
+			)
+		}
+	);
+
+</script>
+</body>
+</html>

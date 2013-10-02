@@ -100,3 +100,6 @@ C:\Workspace\Richard-Hollon-Website\RichardHollonSite\bin\DotNetOpenAuth.AspNet.
 C:\Workspace\Richard-Hollon-Website\RichardHollonSite\obj\Debug\RichardHollonSite.csprojResolveAssemblyReference.cache
 C:\Workspace\Richard-Hollon-Website\RichardHollonSite\obj\Debug\RichardHollonSite.dll
 C:\Workspace\Richard-Hollon-Website\RichardHollonSite\obj\Debug\RichardHollonSite.pdb
+C:\Workspace\MyWebsite\RichardHollonSite\bin\ImageResizer.dll
+C:\Workspace\MyWebsite\RichardHollonSite\bin\ImageResizer.xml
+C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.csprojResolveAssemblyReference.cache

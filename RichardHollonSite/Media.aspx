@@ -74,7 +74,7 @@
 	<script type="text/javascript">
 	    $(".instagram").instagram({
 	        userId: '188067182',
-            show: 10,
+            show: 12,
 	        accessToken: '188067182.4ab7019.51e45179b6fc4b1da61735bbeeb5ebcd',
 	        image_size: 'small_resolution'
 	    });
