@@ -90,33 +90,43 @@
 	            values: [
                   { latLng: [30.102365696412445, -97.6409912109375], data: "Austin, Texas USA!" },
                   { address: "525 Market Street, Philadelphia, PA 19106", data: "The City of Brotherly Love!", options: { icon: "http://maps.google.com/mapfiles/marker_green.png" } },
-                  { latLng: [35.005623, 135.765836], data: "Nishiki Market - Kyoto Japan." },
-                  { latLng: [33.179915, 129.71511], data: "Train station - Sasebo Japan." },
-	              { latLng: [21.543489, 39.172989], data: "Arabian Homes - Jeddah, Saudi Arabia." },
-                  { latLng: [35.700722, 139.697358], data: "Okubo station - Tokyo, Japan." },
-                  { latLng: [34.693738, 135.502165], data: "Hard Rock Cafe - Osaka, Japan." },
-                  { latLng: [-35.253945, 139.453882], data: "Tailem Bend, South Australia." },
-                  { latLng: [22.145576, 113.563344], data: "Venetian Hotel - Macau." },
-                  { latLng: [49.37286, -0.878752], data: "Omaha Beach - Normandy, France." },
-                  { latLng: [22.236207, 113.947827], data: "Lantau Island, China." },
-                  { latLng: [34.870244, 33.609009], data: "Larnaca International Airport - Cyprus." },
-                  { latLng: [-33.890238, 151.277166], data: "Bondi Beach - NSW, Australia." },
-                  { latLng: [-37.005602, 174.782695], data: "Auckland Airport - New Zealand." },
-                  { latLng: [32.627833, 129.738588], data: "Gunkanjima - Nagasaki, Japan." },
-                  { latLng: [14.599512, 120.98422], data: "Shangrila Hotel - Manila, Philippines." },
-                  { latLng: [48.858229, 2.294388], data: "Eiffel Tower - Paris, France." },
-                  { latLng: [21.277378, 40.421068], data: "Taif - Al-Sarawat Mountains" },
-                  { latLng: [34.302208, 132.322026], data: "Miyajima/Itsukushima 厳島 Island" },
-                  { latLng: [51.47238, -0.45094], data: "Heathrow Airport - London UK." }
+                  { latLng: [35.005623, 135.765836],    data: "Nishiki Market - Kyoto Japan." },
+                  { latLng: [33.179915, 129.71511],     data: "Train station - Sasebo Japan." },
+	              { latLng: [21.543489, 39.172989],     data: "Arabian Homes - Jeddah, Saudi Arabia." },
+                  { latLng: [35.700722, 139.697358],    data: "Okubo station - Tokyo, Japan." },                  
+                  { latLng: [-35.253945, 139.453882],   data: "Tailem Bend, South Australia." },
+                  { latLng: [22.145576, 113.563344],    data: "Venetian Hotel - Macau." },
+                  { latLng: [49.37286, -0.878752],      data: "Omaha Beach - Normandy, France." },
+                  { latLng: [22.236207, 113.947827],    data: "Lantau Island, China." },
+                  { latLng: [34.870244, 33.609009],     data: "Larnaca International Airport - Cyprus." },
+                  { latLng: [-33.890238, 151.277166],   data: "Bondi Beach - NSW, Australia." },
+                  { latLng: [-37.799747, 144.967269],   data: "Lygon street - Carlton, Melbourne, VIC Australia." },
+                  { latLng: [-34.937347, 138.570888],   data: "Vili's Cafe - Adelaide, South Australia." },
+                  { latLng: [-34.980291, 138.510319],   data: "Glenelg Jetty - Adelaide, South Australia." },
+                  { latLng: [-34.988244, 138.518889],   data: "Broadway St - Adelaide, South Australia." },
+                  { latLng: [-35.034690, 138.521415],   data: "Seacliff, South Australia." },
+                  { latLng: [-35.139248, 138.469595],   data: "Christies Beach, South Australia." },
+                  { latLng: [-35.563669, 138.630742],   data: "Granite Island - Victor Harbour, South Australia." },
+                  { latLng: [-37.005602, 174.782695],   data: "Auckland Airport - New Zealand." },
+                  { latLng: [32.627833, 129.738588],    data: "Gunkanjima - Nagasaki, Japan." },
+                  { latLng: [14.599512, 120.98422],     data: "Shangrila Hotel - Manila, Philippines." },
+                  { latLng: [48.858229, 2.294388],      data: "Eiffel Tower - Paris, France." },
+                  { latLng: [21.277378, 40.421068],     data: "Taif - Al-Sarawat Mountains, Saudi Arabia." },
+                  { latLng: [34.302208, 132.322026],    data: "Miyajima/Itsukushima 厳島 Island, Nagasaki Japan." },
+                  { latLng: [33.164418, 129.681564],    data: "Kujukushima Kanko Hotel, Kashimaecho, Nagasaki Japan." },
+                  { latLng: [35.702544, 139.695291],    data: "Hundred Stay Hotel - Shinjuku, Tokyo Japan." },
+                  { latLng: [35.002248, 135.779318],    data: "Kyo no Yado Gion Sano (Ryokan), Kyoto Japan." },
+                  { latLng: [32.747977, 129.872741],    data: "Chisun Grand Hotel, Nagasaki Japan." },
+                  { latLng: [34.665044, 135.49934],     data: "Hotel Ichiei 日本 Osaka." },
+                  { latLng: [34.693738, 135.502165],    data: "Hard Rock Cafe - Osaka, Japan." },
+                  { latLng: [34.668811, 135.437413],    data: "Takoyaki Museum - Osaka, Japan." },
+                  { latLng: [32.747977, 129.872741],    data: "Chisun Grand Hotel, Nagasaki Japan." },
+                  { latLng: [35.784286, 140.379469],    data: "Hotel Nikko, Narita Japan." },
+                  { latLng: [51.47238, -0.45094],       data: "Heathrow Airport - London UK." }
                   /* 
-
-                  
-
-                  Melbourne
-                  Adelaide
-                  Seacliff
-                  Noarlunga
                   Germany
+                  Bahrain
+                  America - Phoenix, Miami, Virginia/DC
                   */
 	            ],
 	            options: {
