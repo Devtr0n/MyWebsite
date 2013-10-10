@@ -229,6 +229,7 @@
     <Content Include="packages.config" />
     <Content Include="Content\Documents\Resume2013.docx" />
     <Content Include="Content\Documents\Resume2013.pdf" />
+    <None Include="Properties\PublishProfiles\MyWebSite-RichardHollon.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Portfolio.aspx" />
     <Content Include="Resume.aspx" />
@@ -264,7 +265,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
@@ -360,7 +363,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>21322</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:24389/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
