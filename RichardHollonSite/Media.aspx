@@ -135,14 +135,23 @@
                   { latLng: [34.668811, 135.437413],    data: "Takoyaki Museum - Osaka, Japan." },
                   { latLng: [32.747977, 129.872741],    data: "Chisun Grand Hotel, Nagasaki Japan." },
                   { latLng: [35.784286, 140.379469],    data: "Hotel Nikko, Narita Japan." },
-                  { latLng: [51.47238, -0.45094],       data: "Heathrow Airport - London UK." }
+                  { latLng: [51.47238, -0.45094],       data: "Heathrow Airport - London UK." },
+                  { latLng: [21.01807, -101.258326],    data: "Guanajuato - GTO, Mexico." },
+                  { latLng: [36.10535, -115.172791],    data: "Fatburger - Las Vegas, Nevada." },
+                  { latLng: [38.896985, -77.023572],    data: "International Spy Museum - Washington D.C." },
+                  { latLng: [33.969808, -112.730178],   data: "Wickenburg, Arizona." },
+                  { latLng: [33.28116, -111.79017],     data: "In and Out Burger - Phoenix, Arizona." },
+                  { latLng: [25.790681, -80.130051],    data: "Miami Beach, Florida." },
+                  { latLng: [38.696865, -76.847781],    data: "Brandywine - Maryland." },
+                  { latLng: [37.208179, -76.77413],     data: "Jamestown, Virginia." },
+                  { latLng: [34.749256, -92.267713],    data: "Little Rock, Arkansas." },
+                  { latLng: [33.942363, -118.408169],   data: "Los Angeles International Airport." },
+                  { latLng: [30.458181, -91.140267],    data: "Baton Rouge, Louisiana." },
+                  { latLng: [26.058718, -97.950532],    data: "Arturo's - Nuevo Progreso Tamaulipas, Mexico." },
+                  { latLng: [38.849334, -77.306698],    data: "Fairfax, Virginia." }
                   /* 
-                  Fatburger - Vegas - 36.10535,-115.172791
-
-
                   Germany
                   Bahrain
-                  America - Phoenix, Miami, Virginia/DC
                   */
 	            ],
 	            options: {
