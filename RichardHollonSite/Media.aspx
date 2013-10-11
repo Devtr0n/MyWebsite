@@ -7,7 +7,7 @@
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1><%: Title %> of Richard Hollon:</h1>
-                <h2> the software engineer.</h2>
+                <h2> a software engineer.</h2>
             </hgroup>
         </div>
     </section>
@@ -23,6 +23,19 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width" />
+
+    <!-- Google Analytics Script -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44775720-1', 'richardhollon.com');
+        ga('send', 'pageview');
+    </script>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.2.2/jquery.instagram.min.js"></script>
@@ -124,6 +137,9 @@
                   { latLng: [35.784286, 140.379469],    data: "Hotel Nikko, Narita Japan." },
                   { latLng: [51.47238, -0.45094],       data: "Heathrow Airport - London UK." }
                   /* 
+                  Fatburger - Vegas - 36.10535,-115.172791
+
+
                   Germany
                   Bahrain
                   America - Phoenix, Miami, Virginia/DC

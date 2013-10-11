@@ -6,20 +6,29 @@
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1><%: Title %> Richard Hollon:</h1>
-                <h2> the software engineer.</h2>
+                <h2> a software engineer.</h2>
             </hgroup>
         </div>
     </section>
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-<%--    <hgroup class="title">
-        <h1><%: Title %> Richard Hollon:</h1>
-        <h2> the software engineer.</h2>
-    </hgroup>--%>
+
+    <!-- Google Analytics Script -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44775720-1', 'richardhollon.com');
+        ga('send', 'pageview');
+    </script>
+
     <meta name="viewport" content="width=device-width" />
     
-
     <article>
         <p>        
             Richard Hollon was born in the wee hours of a hot summer night in July of 1980 at Valley Baptist Medical Center in Harlingen, Texas (about eleven miles from Mexico).
@@ -40,7 +49,7 @@
     </article>
 
     <aside>
-        <asp:Image ID="Image1" runat="server" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg"/>
+        <asp:Image ID="imgSide" runat="server" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg"/>
         <ul>
             <li><a runat="server" href="~/Resume.aspx">Resume</a></li>
             <li><a runat="server" href="~/Contact.aspx">Contact</a></li>

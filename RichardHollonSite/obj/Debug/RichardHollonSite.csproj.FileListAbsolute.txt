@@ -102,3 +102,4 @@ C:\Workspace\MyWebsite\RichardHollonSite\bin\DotNetOpenAuth.OpenId.RelyingParty.
 C:\Workspace\MyWebsite\RichardHollonSite\bin\DotNetOpenAuth.AspNet.xml
 C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.dll
 C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.pdb
+C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.csprojResolveAssemblyReference.cache
