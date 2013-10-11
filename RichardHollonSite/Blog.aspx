@@ -35,7 +35,8 @@
         </header>
 
         <p>
-            <asp:HyperLink ID="HyperLinkNew" runat="server" NavigateUrl="http://richieupandover.blogspot.com" Target="_blank">New .NET Blog</asp:HyperLink>
+            <%--<asp:HyperLink ID="HyperLinkNew" runat="server" NavigateUrl="http://richieupandover.blogspot.com" Target="_blank">New .NET Blog</asp:HyperLink>--%>
+            Coming soon...
         </p>
 
         <header>
