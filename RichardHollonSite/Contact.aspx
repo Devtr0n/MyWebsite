@@ -27,7 +27,7 @@
         ga('create', 'UA-44775720-1', 'richardhollon.com');
         ga('send', 'pageview');
     </script>
-
+<article>
     <section class="contact">
         <header>
             <h2>via Email:</h2>
@@ -119,5 +119,5 @@
             Austin, TX 78744-6399
         </p>
     </section>
-
+</article>
 </asp:Content>

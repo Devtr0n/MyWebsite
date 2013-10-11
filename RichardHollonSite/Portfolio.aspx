@@ -38,22 +38,46 @@
 
     <meta name="viewport" content="width=device-width" />
 
-    <article>
-    <h3>NEBF</h3>
+    <aside>
+        <asp:Image ID="imgSelf" runat="server" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg"/>
+        <ul>
+            <li><a id="A1" runat="server" href="~/Resume.aspx">Resume</a></li>
+            <li><a id="A2" runat="server" href="~/Contact.aspx">Contact</a></li>
+        </ul>
+    </aside>
+
+<article>
+    <header><h2>NEBF</h2></header>
     <div>
         <p>        
             Portfolio NEBF.
         </p>
     </div>
 
-    <h3>Double Line Edfi</h3>
+    <header><h2>Double Line Edfi</h2></header>
     <div>
         <p>        
-            Portfolio Double Line Edfi.
+            <a href="http://www.doublelinepartners.com/wp-content/uploads/2013/02/DLP-Website-Case-Study-Ed-Fi_2-3.pdf" target="_blank" title="View Doubleline Ed-Fi Web Dashboard">
+                <img id="imgDoubleLine1" alt="View Incenergy Alarms" src="Images/portfolio/doubleline-edfi-1.png?width=200">
+            </a>
+            <a href="http://www.doublelinepartners.com/wp-content/uploads/2013/02/DLP-Website-Case-Study-TSDS.pdf" target="_blank" title="View Doubleline Texas Student Data System">
+                <img id="imgDoubleLine2" alt="View Incenergy Monitoring" src="Images/portfolio/doubleline-edfi-2.png?width=180">
+            </a>
+        </p>
+        <p>    
+            <a href="/Images/portfolio/doubleline-edfi-3.png" target="_blank" title="View Doubleline Ed-Fi Web Dashboard">
+                <img id="imgDoubleLine3" alt="View Incenergy Monitoring" src="Images/portfolio/doubleline-edfi-3.png?width=200">
+            </a>                
+            <a href="/Images/portfolio/doubleline-edfi-4.png" target="_blank" title="View Doubleline Ed-Fi Web Dashboard">
+                <img id="imgDoubleLine4" alt="View Incenergy Alarms" src="Images/portfolio/doubleline-edfi-4.png?width=180">
+            </a>
+            <a href="/Images/portfolio/doubleline-edfi-5.png" target="_blank" title="View Doubleline Ed-Fi Web Dashboard">
+                <img id="imgDoubleLine5" alt="View Incenergy Alarms" src="Images/portfolio/doubleline-edfi-5.png?width=180">
+            </a>
         </p>
     </div>
 
-    <h3>Incenergy EMS</h3>
+    <header><h2>Incenergy EMS</h2></header>
     <div>
         <p>        
             <a href="http://www.incenergy.com/products/hvac#tabs-2" target="_blank" title="View Incenergy EMS Product Alarms">
@@ -74,70 +98,62 @@
     </div>
 
 
-    <h3>HVJ Pavement</h3>
+    <header><h2>HVJ Associates, Inc</h2></header>
     <div>
         <p>        
-            Portfolio HVJ Pavement.
+            Portfolio HVJ Associates, Inc.
         </p>
     </div>
 
-    <h3>Automation Of Movements</h3>
+    <header><h2>Automation Of Movements</h2></header>
     <div>
         <p>        
             Portfolio ABB Grain AoM.
         </p>
     </div>
 
-    <h3>LACE (Licensing, Administration, Consumer Affairs & Enforcement</h3>
+    <header><h2>LACE (Licensing, Administration, Consumer Affairs & Enforcement</h2></header>
     <div>
         <p>        
             Portfolio TXDOT LACE.
         </p>
     </div>
 
-    <h3>Texas Children's Health Insurance Program</h3>
+    <header><h2>Texas Children's Health Insurance Program</h2></header>
     <div>
         <p>        
             Portfolio ACS TX CHIP.
         </p>
     </div>
 
-    <h3>Homecity</h3>
+    <header><h2>Homecity</h2></header>
     <div>
         <p>        
             Portfolio HOMECITY.
         </p>
     </div>
     
-    <h3>AAXCHANGE</h3>
+    <header><h2>American Auto Exchange</h2></header>
     <div>
         <p>        
-            Portfolio AAXCHANGE.
+            Portfolio American Auto Exchange.
         </p>
     </div>
 
-    <h3>Innovative Aftermarket Systems</h3>
+    <header><h2>Innovative Aftermarket Systems</h2></header>
     <div>
         <p>        
             Portfolio IAS.
         </p>
     </div>
 
-    <h3>Oklahoma Department of Veterans Affairs</h3>
+    <header><h2>Oklahoma Department of Veterans Affairs</h2></header>
     <div>
         <p>        
             Portfolio NHA ODVA.
         </p>
     </div>
 
-    </article>
-
-    <aside>
-        <asp:Image ID="Image1" runat="server" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg"/>
-        <ul>
-            <li><a id="A1" runat="server" href="~/Resume.aspx">Resume</a></li>
-            <li><a id="A2" runat="server" href="~/Contact.aspx">Contact</a></li>
-        </ul>
-    </aside>
+</article>
 
 </asp:Content>

@@ -39,7 +39,7 @@
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.2.2/jquery.instagram.min.js"></script>
-
+<article>
 	<div class="instagram">
         <h2><a href="http://www.instagram.com/nekotakacho" target="_blank">My Latest Instagram Photos</a></h2>
     </div><br />
@@ -82,6 +82,7 @@
                 <asp:HyperLink ID="HyperLinkNew" runat="server" NavigateUrl="http://msdn.microsoft.com/en-us/library/vstudio/da5kh0wa.aspx" Target="_blank">Visual Studio 2012 - Pre-defined Keyboard Shortcuts</asp:HyperLink>
             </p>
     </div>
+</article>
 
     <script type="text/javascript" src="/Scripts/gmap3.min.js"></script>
 	<script type="text/javascript">

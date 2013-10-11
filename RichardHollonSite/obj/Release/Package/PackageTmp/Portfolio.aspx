@@ -38,7 +38,7 @@
 
     <meta name="viewport" content="width=device-width" />
 
-    <article>
+<article>
     <h3>NEBF</h3>
     <div>
         <p>        
@@ -130,8 +130,6 @@
         </p>
     </div>
 
-    </article>
-
     <aside>
         <asp:Image ID="Image1" runat="server" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg"/>
         <ul>
@@ -139,5 +137,7 @@
             <li><a id="A2" runat="server" href="~/Contact.aspx">Contact</a></li>
         </ul>
     </aside>
+
+</article>
 
 </asp:Content>

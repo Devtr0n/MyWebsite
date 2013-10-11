@@ -199,6 +199,11 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Images\portfolio\doubleline-edfi-1.png" />
+    <Content Include="Images\portfolio\doubleline-edfi-2.png" />
+    <Content Include="Images\portfolio\doubleline-edfi-3.png" />
+    <Content Include="Images\portfolio\doubleline-edfi-4.png" />
+    <Content Include="Images\portfolio\doubleline-edfi-5.png" />
     <Content Include="Images\portfolio\incenergy-alarms.png" />
     <Content Include="Images\portfolio\incenergy-charting.png" />
     <Content Include="Images\portfolio\incenergy-hvac-overrides.png" />

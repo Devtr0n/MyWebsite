@@ -41,6 +41,7 @@
         });
     </script>
   
+<article>
     <div id="imageDIV">
         <asp:Image ID="imgMCP" runat="server" ImageAlign="Left" ImageUrl="~/Images/mcp_certification.png" Height="150" Width="150"/>
         <asp:Image ID="imgSelf" runat="server" ImageAlign="Middle" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg" Height="150" Width="150"/>
@@ -346,5 +347,6 @@
         </p>
 
     </section>
+</article>
 
 </asp:Content>

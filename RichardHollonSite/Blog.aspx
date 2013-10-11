@@ -29,23 +29,25 @@
         ga('send', 'pageview');
     </script>
 
-    <section class="contact">
-        <header>
-            <h2>Current Blog:</h2>
-        </header>
+    <article>
+        <section class="contact">
+            <header>
+                <h2>Current Blog:</h2>
+            </header>
 
-        <p>
-            <%--<asp:HyperLink ID="HyperLinkNew" runat="server" NavigateUrl="http://richieupandover.blogspot.com" Target="_blank">New .NET Blog</asp:HyperLink>--%>
-            Coming soon...
-        </p>
+            <p>
+                <%--<asp:HyperLink ID="HyperLinkNew" runat="server" NavigateUrl="http://richieupandover.blogspot.com" Target="_blank">New .NET Blog</asp:HyperLink>--%>
+                Coming soon...
+            </p>
 
-        <header>
-            <h2>Old Blog:</h2>
-        </header>
+            <header>
+                <h2>Old Blog:</h2>
+            </header>
 
-        <p>
-            <asp:HyperLink ID="HyperLinkOld" runat="server" NavigateUrl="http://richieupandover.blogspot.com" Target="_blank">Richie Up And Over (old Flex blog)</asp:HyperLink>
-        </p>
-    </section>
+            <p>
+                <asp:HyperLink ID="HyperLinkOld" runat="server" NavigateUrl="http://richieupandover.blogspot.com" Target="_blank">Richie Up And Over (old Flex blog)</asp:HyperLink>
+            </p>
+        </section>
+    </article>
 
 </asp:Content>

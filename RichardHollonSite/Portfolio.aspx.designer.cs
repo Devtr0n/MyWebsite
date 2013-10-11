@@ -13,13 +13,13 @@ namespace RichardHollonSite {
     public partial class Portfolio {
         
         /// <summary>
-        /// Image1 control.
+        /// imgSelf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Image imgSelf;
         
         /// <summary>
         /// A1 control.
