@@ -39,7 +39,7 @@
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.2.2/jquery.instagram.min.js"></script>
-<article>
+
 	<div class="instagram">
         <h2><a href="http://www.instagram.com/nekotakacho" target="_blank">My Latest Instagram Photos</a></h2>
     </div><br />
@@ -52,15 +52,28 @@
         <% 
             var rndYoutubeFeed = RandomizerHelper.Shuffle(YouTubeVideoHelper.GetVideos());
 
-            foreach (var v in rndYoutubeFeed.Take(6))
+            int videoWidth, videoHeight;
+            
+            if (Request.Browser.IsMobileDevice)
+            {
+                videoWidth = 250;
+                videoHeight = 150;
+            }
+            else
+            {
+                videoWidth = 450;
+                videoHeight = 250;                
+            }
+            
+            foreach (var v in rndYoutubeFeed.Take(8))
             { %>
-            <object>
-                <param name="movie" value="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" />
-                <param name="allowFullScreen" value="true" />
-                <param name="allowscriptaccess" value="always"/>
-                <param name="wmode" value="opaque" />
-                <embed src="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" type="application/x-shockwave-flash" width="427" height="258" />
-            </object>
+                    <object>
+                        <param name="movie" value="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" />
+                        <param name="allowFullScreen" value="true" />
+                        <param name="allowscriptaccess" value="always"/>
+                        <param name="wmode" value="opaque" />
+                        <embed src="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" type="application/x-shockwave-flash" width="<%= videoWidth %>" height="<%= videoHeight %>" />
+                    </object>
         <% } %>
     </div>
 
@@ -82,22 +95,37 @@
                 <asp:HyperLink ID="HyperLinkNew" runat="server" NavigateUrl="http://msdn.microsoft.com/en-us/library/vstudio/da5kh0wa.aspx" Target="_blank">Visual Studio 2012 - Pre-defined Keyboard Shortcuts</asp:HyperLink>
             </p>
     </div>
-</article>
 
     <script type="text/javascript" src="/Scripts/gmap3.min.js"></script>
 	<script type="text/javascript">
 	    $(".instagram").instagram({
 	        userId: '188067182',
-            show: 12,
+            show: 15,
 	        accessToken: '188067182.4ab7019.51e45179b6fc4b1da61735bbeeb5ebcd',
 	        image_size: 'small_resolution'
 	    });
 
-	    $("#my_map").width("800px").height("450").gmap3({
+	    var mapWidth = 0;
+	    var mapHeight = 0;
+	    var mapZoom = 0;
+
+	    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+	       // alert('true');
+	        mapWidth = 250;
+	        mapHeight = 175;
+	        mapZoom = 0;
+	    } else {
+	       // alert('false');
+	        mapWidth = 800;
+	        mapHeight = 450;
+	        mapZoom = 2;
+	    }
+
+	    $("#my_map").width(mapWidth).height(mapHeight).gmap3({
 	        map: {
 	            options: {
 	                center: [30.102365696412445, -97.6409912109375], //Austin, Texas (center)
-	                zoom: 2
+	                zoom: mapZoom
 	            }
 	        },
 	        marker: {
