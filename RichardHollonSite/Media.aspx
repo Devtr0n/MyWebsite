@@ -189,9 +189,10 @@
                   { latLng: [33.942363, -118.408169],   data: "Los Angeles International Airport." },
                   { latLng: [30.458181, -91.140267],    data: "Baton Rouge, Louisiana." },
                   { latLng: [26.058718, -97.950532],    data: "Arturo's - Nuevo Progreso Tamaulipas, Mexico." },
+                  { latLng: [50.093433, 8.949447],      data: "Großauheim - Hanau, Germany ." },
+                  { latLng: [50.113905, 8.908076],      data: "Steinheim - Hanau, Germany ." },
                   { latLng: [38.849334, -77.306698],    data: "Fairfax, Virginia." }
                   /* 
-                  Germany
                   Bahrain
                   */
 	            ],
