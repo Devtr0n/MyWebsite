@@ -92,7 +92,8 @@
     <div>
         <h2>Random Web Links</h2>
             <p>
-                <asp:HyperLink ID="HyperLinkNew" runat="server" NavigateUrl="http://msdn.microsoft.com/en-us/library/vstudio/da5kh0wa.aspx" Target="_blank">Visual Studio 2012 - Pre-defined Keyboard Shortcuts</asp:HyperLink>
+                <asp:HyperLink ID="hyperLinkOne" runat="server" NavigateUrl="http://msdn.microsoft.com/en-us/library/vstudio/da5kh0wa.aspx" Target="_blank">Visual Studio 2012 - Pre-defined Keyboard Shortcuts</asp:HyperLink>
+                <asp:HyperLink ID="hyperLinkTwo" runat="server" NavigateUrl="http://www.hanselman.com/blog/NuGetPackageOfTheWeek7ELMAHErrorLoggingModulesAndHandlersWithSQLServerCompact.aspx" Target="_blank">NuGet Package of the Week #7 - ELMAH (Error Logging Modules and Handlers) with SQL Server Compact</asp:HyperLink>
             </p>
     </div>
 

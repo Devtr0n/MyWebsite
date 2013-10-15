@@ -143,6 +143,7 @@
     <Content Include="App_Readme\Elmah.txt" />
     <Content Include="Blog.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\Hyperlinks.xml" />
     <Content Include="Content\menudock.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -208,6 +209,7 @@
     <Content Include="Images\portfolio\incenergy-charting.png" />
     <Content Include="Images\portfolio\incenergy-hvac-overrides.png" />
     <Content Include="Images\portfolio\incenergy-scheduling.png" />
+    <Content Include="Japan.aspx" />
     <Content Include="MenuDock.html" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
@@ -309,8 +311,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\HyperlinksHelper.cs" />
     <Compile Include="Helpers\RandomizerHelper.cs" />
     <Compile Include="Helpers\YouTubeVideoHelper.cs" />
+    <Compile Include="Japan.aspx.cs">
+      <DependentUpon>Japan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Japan.aspx.designer.cs">
+      <DependentUpon>Japan.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Media.aspx.cs">
       <DependentUpon>Media.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
