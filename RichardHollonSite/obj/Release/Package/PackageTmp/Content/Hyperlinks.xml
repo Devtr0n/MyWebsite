@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Hyperlinks>
+  <hyperlink>
+      <Title>Visual Studio 2012 - Pre-defined Keyboard Shortcuts</Title>
+      <URL>http://msdn.microsoft.com/en-us/library/vstudio/da5kh0wa.aspx</URL>
+  </hyperlink>
+  <hyperlink>
+      <Title>NuGet Package of the Week #7 - ELMAH (Error Logging Modules and Handlers) with SQL Server Compact</Title>
+      <URL>http://www.hanselman.com/blog/NuGetPackageOfTheWeek7ELMAHErrorLoggingModulesAndHandlersWithSQLServerCompact.aspx</URL>
+  </hyperlink>
+  <hyperlink>
+      <Title>Melissa Dreams of Sushi</Title>
+      <URL>http://melissadreamsofsushi.com/</URL>
+  </hyperlink>
+  <hyperlink>
+      <Title>Texas State Historical Association - Biographies</Title>
+      <URL>http://www.tshaonline.org/category/handbook-subjects-who/biographies</URL>
+  </hyperlink>
+  <hyperlink>
+      <Title>CSS Dock Menu</Title>
+      <URL>http://ndesign-studio.com/blog/css-dock-menu</URL>
+  </hyperlink>
+  <hyperlink>
+      <Title>Testing untestable code thanks to MS Fakes</Title>
+      <URL>http://blog.christopheargento.net/2013/02/02/testing-untestable-code-thanks-to-ms-fakes/</URL>
+  </hyperlink>
+  <hyperlink>
+      <Title>Favorite Visual Studio keyboard shortcuts [closed]</Title>
+      <URL>http://stackoverflow.com/questions/98606/favorite-visual-studio-keyboard-shortcuts</URL>
+  </hyperlink>
+  <hyperlink>
+      <Title>Amir Rajan's blog</Title>
+      <URL>http://amirrajan.net/</URL>
+  </hyperlink>
+  <hyperlink>
+      <Title>How to create a simple blog using ASP.NET MVC - Part I</Title>
+      <URL>http://www.prideparrot.com/blog/archive/2012/12/how_to_create_a_simple_blog_part1</URL>
+  </hyperlink>  
+</Hyperlinks>

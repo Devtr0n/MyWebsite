@@ -90,11 +90,22 @@
     </div>
 
     <div>
-        <h2>Random Web Links</h2>
-            <p>
-                <asp:HyperLink ID="hyperLinkOne" runat="server" NavigateUrl="http://msdn.microsoft.com/en-us/library/vstudio/da5kh0wa.aspx" Target="_blank">Visual Studio 2012 - Pre-defined Keyboard Shortcuts</asp:HyperLink>
-                <asp:HyperLink ID="hyperLinkTwo" runat="server" NavigateUrl="http://www.hanselman.com/blog/NuGetPackageOfTheWeek7ELMAHErrorLoggingModulesAndHandlersWithSQLServerCompact.aspx" Target="_blank">NuGet Package of the Week #7 - ELMAH (Error Logging Modules and Handlers) with SQL Server Compact</asp:HyperLink>
-            </p>
+        <h2>5 Random Favorite Web Links</h2>
+        <p>
+        <% 
+            var rndHyperlinks = RandomizerHelper.Shuffle(HyperlinksHelper.GetFavoriteHyperlinks());
+            StringBuilder sb = new StringBuilder();
+            sb.Append("<ul>");
+            
+            foreach (var v in rndHyperlinks.Take(5))
+            {
+                sb.Append(string.Format("<li><a href={0} target={3}>{1}</a></li>", v.URL, v.Title, "_blank"));
+            }
+            
+            sb.Append("</ul>");
+            Response.Write(sb);           
+        %>
+        </p>
     </div>
 
     <script type="text/javascript" src="/Scripts/gmap3.min.js"></script>

@@ -99,7 +99,7 @@
             
             foreach (var v in rndHyperlinks.Take(5))
             {
-                sb.Append(string.Format("<li><a href={0}>{1}</a></li>", v.URL, v.Title));
+                sb.Append(string.Format("<li><a href={0} target={3}>{1}</a></li>", v.URL, v.Title, "_blank"));
             }
             
             sb.Append("</ul>");
