@@ -82,7 +82,7 @@
         <ul>
             <li><a id="liMusic1" runat="server" target="_blank" href="https://www.facebook.com/Powerwolves">Powerwolves</a></li>
             <li><a id="liMusic2" runat="server" target="_blank" href="http://www.bridge9.com/champion">Champion</a></li>
-            <li><a id="liMusic3" runat="server" target="_blank" href="http://www.banecentral.com/">Bane</a></li>
+            <li><a id="liMusic3" runat="server" target="_blank" href="https://www.facebook.com/banecentral">Bane</a></li>
             <li><a id="liMusic4" runat="server" target="_blank" href="http://www.weldonhenson.com/">Weldon Henson</a></li>
             <li><a id="liMusic5" runat="server" target="_blank" href="http://www.abc.net.au/triplej/player/triplej.htm">Triple J (Australian radio)</a></li>
             <li><a id="liMusic6" runat="server" target="_blank" href="http://kokefm.com/player.html">KOKE FM (Austin radio)</a></li>
@@ -90,14 +90,14 @@
     </div>
 
     <div>
-        <h2>5 Random Favorite Web Links</h2>
+        <h2>6 Random Web Links</h2>
         <p>
         <% 
             var rndHyperlinks = RandomizerHelper.Shuffle(HyperlinksHelper.GetFavoriteHyperlinks());
             StringBuilder sb = new StringBuilder();
             sb.Append("<ul>");
             
-            foreach (var v in rndHyperlinks.Take(5))
+            foreach (var v in rndHyperlinks.Take(6))
             {
                 sb.Append(string.Format("<li><a href={0} target={2}>{1}</a></li>", v.URL, v.Title, "_blank"));
             }
