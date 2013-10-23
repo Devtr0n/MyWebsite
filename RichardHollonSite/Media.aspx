@@ -181,6 +181,7 @@
                   { latLng: [36.10535, -115.172791],    data: "Fatburger - Las Vegas, Nevada." },
                   { latLng: [38.896985, -77.023572],    data: "International Spy Museum - Washington D.C." },
                   { latLng: [33.969808, -112.730178],   data: "Wickenburg, Arizona." },
+                  { latLng: [28.320325, -80.608162],    data: "Cocoa Beach, Florida." },
                   { latLng: [33.28116, -111.79017],     data: "In and Out Burger - Phoenix, Arizona." },
                   { latLng: [25.790681, -80.130051],    data: "Miami Beach, Florida." },
                   { latLng: [38.696865, -76.847781],    data: "Brandywine - Maryland." },
@@ -192,6 +193,8 @@
                   { latLng: [50.093433, 8.949447],      data: "Großauheim - Hanau, Germany ." },
                   { latLng: [50.113905, 8.908076],      data: "Steinheim - Hanau, Germany ." },
                   { latLng: [38.849334, -77.306698],    data: "Fairfax, Virginia." }
+
+                  
                   /* 
                   Bahrain
                   */

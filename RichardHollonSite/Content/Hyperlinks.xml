@@ -104,4 +104,16 @@
     <Title>Tess Ferrandez - If broken it is, fix it you should</Title>
     <URL>http://blogs.msdn.com/b/tess/</URL>
   </hyperlink>
+  <hyperlink>
+    <Title>How to convert an ASP.NET Web Forms web application into ASP.NET MVC 3</Title>
+    <URL>http://www.britishdeveloper.co.uk/2011/05/convert-web-forms-mvc3-how-to.html</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>C# Language Specification 5.0</Title>
+    <URL>http://www.microsoft.com/en-us/download/confirmation.aspx?id=7029</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>Byte Rot by Aliostad</Title>
+    <URL>http://byterot.blogspot.com/</URL>
+  </hyperlink>
 </Hyperlinks>
