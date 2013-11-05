@@ -82,7 +82,7 @@
         <ul>
             <li><a id="liMusic1" runat="server" target="_blank" href="https://www.facebook.com/Powerwolves">Powerwolves</a></li>
             <li><a id="liMusic2" runat="server" target="_blank" href="http://www.bridge9.com/champion">Champion</a></li>
-            <li><a id="liMusic3" runat="server" target="_blank" href="http://www.banecentral.com/">Bane</a></li>
+            <li><a id="liMusic3" runat="server" target="_blank" href="https://www.facebook.com/banecentral">Bane</a></li>
             <li><a id="liMusic4" runat="server" target="_blank" href="http://www.weldonhenson.com/">Weldon Henson</a></li>
             <li><a id="liMusic5" runat="server" target="_blank" href="http://www.abc.net.au/triplej/player/triplej.htm">Triple J (Australian radio)</a></li>
             <li><a id="liMusic6" runat="server" target="_blank" href="http://kokefm.com/player.html">KOKE FM (Austin radio)</a></li>
@@ -90,16 +90,16 @@
     </div>
 
     <div>
-        <h2>5 Random Favorite Web Links</h2>
+        <h2>6 Random Web Links</h2>
         <p>
         <% 
             var rndHyperlinks = RandomizerHelper.Shuffle(HyperlinksHelper.GetFavoriteHyperlinks());
             StringBuilder sb = new StringBuilder();
             sb.Append("<ul>");
             
-            foreach (var v in rndHyperlinks.Take(5))
+            foreach (var v in rndHyperlinks.Take(6))
             {
-                sb.Append(string.Format("<li><a href={0} target={3}>{1}</a></li>", v.URL, v.Title, "_blank"));
+                sb.Append(string.Format("<li><a href={0} target={2}>{1}</a></li>", v.URL, v.Title, "_blank"));
             }
             
             sb.Append("</ul>");
@@ -181,6 +181,7 @@
                   { latLng: [36.10535, -115.172791],    data: "Fatburger - Las Vegas, Nevada." },
                   { latLng: [38.896985, -77.023572],    data: "International Spy Museum - Washington D.C." },
                   { latLng: [33.969808, -112.730178],   data: "Wickenburg, Arizona." },
+                  { latLng: [28.320325, -80.608162],    data: "Cocoa Beach, Florida." },
                   { latLng: [33.28116, -111.79017],     data: "In and Out Burger - Phoenix, Arizona." },
                   { latLng: [25.790681, -80.130051],    data: "Miami Beach, Florida." },
                   { latLng: [38.696865, -76.847781],    data: "Brandywine - Maryland." },
@@ -189,9 +190,12 @@
                   { latLng: [33.942363, -118.408169],   data: "Los Angeles International Airport." },
                   { latLng: [30.458181, -91.140267],    data: "Baton Rouge, Louisiana." },
                   { latLng: [26.058718, -97.950532],    data: "Arturo's - Nuevo Progreso Tamaulipas, Mexico." },
+                  { latLng: [50.093433, 8.949447],      data: "Großauheim - Hanau, Germany ." },
+                  { latLng: [50.113905, 8.908076],      data: "Steinheim - Hanau, Germany ." },
                   { latLng: [38.849334, -77.306698],    data: "Fairfax, Virginia." }
+
+                  
                   /* 
-                  Germany
                   Bahrain
                   */
 	            ],

@@ -303,7 +303,7 @@
             <h2>Certifications</h2>
         </header>
         <p>
-            MCSD: Developing ASP.NET MVC 4.5 Applications - March 2013<br />
+            MCSD: Developing ASP.NET MVC 4 Applications - March 2013<br />
             MCTS: Microsoft .NET Framework 3.5 Windows Forms Applications - 2010<br />
             MCTS: Microsoft .NET Framework 2.0 Web-based Client Development - 2008<br />
             MCTS: Microsoft Office Sharepoint Server 2007 Application Development - 2008<br />

@@ -40,8 +40,7 @@
             $("#accordion").accordion();
         });
     </script>
-  
-<article>
+ 
     <div id="imageDIV">
         <asp:Image ID="imgMCP" runat="server" ImageAlign="Left" ImageUrl="~/Images/mcp_certification.png" Height="150" Width="150"/>
         <asp:Image ID="imgSelf" runat="server" ImageAlign="Middle" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg" Height="150" Width="150"/>
@@ -91,13 +90,13 @@
         <p>Visual Studio.NET 1.0-4.5, MVC 2-4, Visual Studio 6, Tortoise SVN, NHibernate, CruiseControl.NET, Cloudberry, OnTime, NCover, Castle ActiveRecord, Crystal Reports, Active Reports, XTra Controls, Telerik ORM, Putty, WireShark, KeePass, Console, Git/GitHub, 7-zip, Flashbuilder 4.x, Notepad++.</p>
 
         <h2>OS</h2>
-        <p>Windows XP/Vista/7/8, Windows Server 2003/2008(r2), iOS5.</p>
+        <p>Windows XP/Vista/7/8, Windows Server 2003/2008(r2), iOS5, Ubuntu.</p>
 
         <h2>Agile</h2>
         <p>Team Foundation Server, CruiseControl.NET, TeamCity, MSBuild, GIT Administration, MediaWiki, Agilo, SVN Administration, nCoverage, OnTime, nUnit, ANT, Resharper, SCRUM, Peer code review.</p>
 
         <h2>Skills</h2>
-        <p>Powershell, AWS EC2 & S3, CruiseControl.NET, Google Maps API, NuGet, Elmah, nANT, IIS5-7, SSL certificates, Windows Scheduled Tasks, SSIS Packages, SSH, ADO.NET, D/COM, SQL Backups, Win32 APIs, CDO, DB Unit Testing, Agile Methodology, SCRUM, WPF, REST Web Services, Ebay API, ODBC, OLE DB, MSDN, CSLA.NET, Apple iTunes Store.</p>
+        <p>Powershell, AWS EC2 & S3, CruiseControl.NET, Google Maps API, NuGet, Elmah, nANT, IIS5-7, SSL certificates, Windows Scheduled Tasks, SSIS Packages, SSH, ADO.NET, D/COM, SQL Backups, Win32 APIs, CDO, DB Unit Testing, Agile Methodology, SCRUM, WPF, REST Web Services, Ebay API, ODBC, OLE DB, MSDN, CSLA.NET, Apple iTunes Store and more.</p>
 
         <header>
             <h2>Experience</h2>
@@ -304,7 +303,7 @@
             <h2>Certifications</h2>
         </header>
         <p>
-            MCSD: Developing ASP.NET MVC 4.5 Applications - March 2013<br />
+            MCSD: Developing ASP.NET MVC 4 Applications - March 2013<br />
             MCTS: Microsoft .NET Framework 3.5 Windows Forms Applications - 2010<br />
             MCTS: Microsoft .NET Framework 2.0 Web-based Client Development - 2008<br />
             MCTS: Microsoft Office Sharepoint Server 2007 Application Development - 2008<br />
@@ -347,6 +346,5 @@
         </p>
 
     </section>
-</article>
 
 </asp:Content>

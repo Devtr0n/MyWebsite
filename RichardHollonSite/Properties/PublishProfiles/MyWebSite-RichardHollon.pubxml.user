@@ -80,7 +80,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/20/2013 13:43:23</publishTime>
     </File>
     <File Include="bin/RichardHollonSite.dll">
-      <publishTime>10/15/2013 16:24:47</publishTime>
+      <publishTime>11/05/2013 10:24:15</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
       <publishTime>09/11/2013 14:17:04</publishTime>
@@ -101,13 +101,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/11/2013 14:20:22</publishTime>
     </File>
     <File Include="Content/Documents/Resume2013.docx">
-      <publishTime>09/27/2013 11:08:05</publishTime>
+      <publishTime>11/04/2013 09:51:37</publishTime>
     </File>
     <File Include="Content/Documents/Resume2013.pdf">
-      <publishTime>09/27/2013 11:08:22</publishTime>
+      <publishTime>11/04/2013 10:52:19</publishTime>
     </File>
     <File Include="Content/Hyperlinks.xml">
-      <publishTime>10/15/2013 16:21:18</publishTime>
+      <publishTime>11/05/2013 10:21:52</publishTime>
     </File>
     <File Include="Content/menudock.css">
       <publishTime>09/30/2013 11:38:36</publishTime>
@@ -380,7 +380,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2013 13:18:04</publishTime>
     </File>
     <File Include="Media.aspx">
-      <publishTime>10/15/2013 16:23:34</publishTime>
+      <publishTime>10/23/2013 17:02:35</publishTime>
     </File>
     <File Include="MenuDock.html">
       <publishTime>09/30/2013 11:47:47</publishTime>
@@ -392,7 +392,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/11/2013 15:11:18</publishTime>
     </File>
     <File Include="Resume.aspx">
-      <publishTime>10/11/2013 14:23:35</publishTime>
+      <publishTime>11/05/2013 10:33:06</publishTime>
     </File>
     <File Include="Scripts/gmap3.js">
       <publishTime>09/24/2013 15:11:55</publishTime>
@@ -482,10 +482,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/11/2013 14:17:02</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>10/11/2013 12:43:52</publishTime>
+      <publishTime>10/18/2013 12:54:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/15/2013 16:32:19</publishTime>
+      <publishTime>11/05/2013 10:33:24</publishTime>
     </File>
   </ItemGroup>
 </Project>
