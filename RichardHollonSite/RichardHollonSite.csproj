@@ -143,7 +143,9 @@
     <Content Include="App_Readme\Elmah.txt" />
     <Content Include="Blog.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="Content\Hyperlinks.xml" />
+    <Content Include="Content\Hyperlinks.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\menudock.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
