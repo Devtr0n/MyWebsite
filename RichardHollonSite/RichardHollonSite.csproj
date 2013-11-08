@@ -53,9 +53,15 @@
     <Reference Include="ImageResizer">
       <HintPath>packages\ImageResizer.3.3.3\lib\ImageResizer.dll</HintPath>
     </Reference>
+    <Reference Include="InstaSharp">
+      <HintPath>packages\InstaSharp.1.1.0.0\lib\net40\InstaSharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json">
       <HintPath>packages\Newtonsoft.Json.4.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Skybrud.Social">
+      <HintPath>packages\Skybrud.Social.0.0.0.7\lib\Skybrud.Social.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

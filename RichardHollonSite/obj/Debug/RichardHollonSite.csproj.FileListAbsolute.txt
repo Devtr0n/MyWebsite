@@ -103,3 +103,5 @@ C:\Workspace\MyWebsite\RichardHollonSite\bin\DotNetOpenAuth.AspNet.xml
 C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.dll
 C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.pdb
 C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.csprojResolveAssemblyReference.cache
+C:\Workspace\MyWebsite\RichardHollonSite\bin\InstaSharp.dll
+C:\Workspace\MyWebsite\RichardHollonSite\bin\Skybrud.Social.dll

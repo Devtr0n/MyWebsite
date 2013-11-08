@@ -38,14 +38,30 @@
     </script>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.2.2/jquery.instagram.min.js"></script>
 
-	<div class="instagram">
-        <h2><a href="http://www.instagram.com/nekotakacho" target="_blank">My Latest Instagram Photos</a></h2>
-    </div><br />
+    <h2><a href="http://www.instagram.com/nekotakacho" target="_blank">My Random Instagram Photos</a></h2>
+            <% 
+            var instagram = Skybrud.Social.Instagram.InstagramService.CreateFromAccessToken("188067182.4ab7019.51e45179b6fc4b1da61735bbeeb5ebcd");
+            var feed = instagram.Endpoints.Users.GetMedia(188067182, 260);
+
+            StringBuilder sb = new StringBuilder();
+            sb.Append(string.Format("<div class={0}>", "instagram"));
+
+            foreach (var image in RandomizerHelper.Shuffle(feed.Data).Take(25))
+            {
+                sb.Append(string.Format("<div class={0}><a href={1} target={2} title={3}>", "instagram-placeholder", image.Link, "_blank", image.CaptionText));
+                sb.Append(string.Format("<img class={0} src={1} /></a></div>", "instagram-image", image.Thumbnail));
+            }
+            sb.Append("</div>");
+            
+            Response.Write(sb); 
+            %>          
+    <br />
 
     <h2>My Travel Map</h2>
     <div id="my_map"></div>
+    <br />
+
 
     <div class="youtube">
         <h2><a href="http://www.youtube.com/Blueberryfarm" target="_blank">My YouTube Channel</a></h2>
@@ -94,7 +110,7 @@
         <p>
         <% 
             var rndHyperlinks = RandomizerHelper.Shuffle(HyperlinksHelper.GetFavoriteHyperlinks());
-            StringBuilder sb = new StringBuilder();
+            sb = new StringBuilder();
             sb.Append("<ul>");
             
             foreach (var v in rndHyperlinks.Take(6))
@@ -110,12 +126,6 @@
 
     <script type="text/javascript" src="/Scripts/gmap3.min.js"></script>
 	<script type="text/javascript">
-	    $(".instagram").instagram({
-	        userId: '188067182',
-            show: 15,
-	        accessToken: '188067182.4ab7019.51e45179b6fc4b1da61735bbeeb5ebcd',
-	        image_size: 'small_resolution'
-	    });
 
 	    var mapWidth = 0;
 	    var mapHeight = 0;
