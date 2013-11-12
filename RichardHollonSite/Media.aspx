@@ -41,27 +41,34 @@
 
     <h2><a href="http://www.instagram.com/nekotakacho" target="_blank">My Random Instagram Photos</a></h2>
             <% 
-            var instagram = Skybrud.Social.Instagram.InstagramService.CreateFromAccessToken("188067182.4ab7019.51e45179b6fc4b1da61735bbeeb5ebcd");
-            var feed = instagram.Endpoints.Users.GetMedia(188067182, 260);
+                StringBuilder sb = new StringBuilder();
+                sb.Append(string.Format("<div class={0}>", "instagram"));
+                var rndInstagramFeed = RandomizerHelper.Shuffle(InstagramHelper.GetInstagramFeed());
+                int imageCount = 0;
+                
+                if (Request.Browser.IsMobileDevice)
+                {
+                    imageCount = 9;
+                }
+                else
+                {
+                    imageCount = 25;
+                }
 
-            StringBuilder sb = new StringBuilder();
-            sb.Append(string.Format("<div class={0}>", "instagram"));
-
-            foreach (var image in RandomizerHelper.Shuffle(feed.Data).Take(25))
-            {
-                sb.Append(string.Format("<div class={0}><a href={1} target={2} title={3}>", "instagram-placeholder", image.Link, "_blank", image.CaptionText));
-                sb.Append(string.Format("<img class={0} src={1} /></a></div>", "instagram-image", image.Thumbnail));
-            }
-            sb.Append("</div>");
-            
-            Response.Write(sb); 
+                foreach (var image in rndInstagramFeed.Take(imageCount))
+                {
+                    sb.Append(string.Format("<div class={0}><a href={1} target={2} title={3}>", "instagram-placeholder", image.Link, "_blank", image.Name));
+                    sb.Append(string.Format("<img class={0} src={1} /></a></div>", "instagram-image", image.URL));                    
+                }
+          
+                sb.Append("</div>");
+                Response.Write(sb); 
             %>          
     <br />
 
     <h2>My Travel Map</h2>
     <div id="my_map"></div>
     <br />
-
 
     <div class="youtube">
         <h2><a href="http://www.youtube.com/Blueberryfarm" target="_blank">My YouTube Channel</a></h2>

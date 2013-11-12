@@ -61,6 +61,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/ImageResizer.dll">
       <publishTime>10/02/2013 15:27:03</publishTime>
     </File>
+    <File Include="bin/InstaSharp.dll">
+      <publishTime>11/08/2013 13:34:00</publishTime>
+    </File>
     <File Include="bin/Microsoft.AspNet.Membership.OpenAuth.dll">
       <publishTime>09/11/2013 14:17:17</publishTime>
     </File>
@@ -80,7 +83,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/20/2013 13:43:23</publishTime>
     </File>
     <File Include="bin/RichardHollonSite.dll">
-      <publishTime>11/05/2013 10:24:15</publishTime>
+      <publishTime>11/08/2013 16:49:26</publishTime>
+    </File>
+    <File Include="bin/Skybrud.Social.dll">
+      <publishTime>11/08/2013 16:04:19</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
       <publishTime>09/11/2013 14:17:04</publishTime>
@@ -107,13 +113,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/04/2013 10:52:19</publishTime>
     </File>
     <File Include="Content/Hyperlinks.xml">
-      <publishTime>11/05/2013 10:21:52</publishTime>
+      <publishTime>11/07/2013 13:56:45</publishTime>
     </File>
     <File Include="Content/menudock.css">
       <publishTime>09/30/2013 11:38:36</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>10/14/2013 10:21:04</publishTime>
+      <publishTime>11/08/2013 16:00:55</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
       <publishTime>09/11/2013 14:17:03</publishTime>
@@ -380,13 +386,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2013 13:18:04</publishTime>
     </File>
     <File Include="Media.aspx">
-      <publishTime>10/23/2013 17:02:35</publishTime>
+      <publishTime>11/08/2013 16:44:10</publishTime>
     </File>
     <File Include="MenuDock.html">
       <publishTime>09/30/2013 11:47:47</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/02/2013 15:29:14</publishTime>
+      <publishTime>11/08/2013 16:04:20</publishTime>
     </File>
     <File Include="Portfolio.aspx">
       <publishTime>10/11/2013 15:11:18</publishTime>
@@ -485,7 +491,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/18/2013 12:54:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/05/2013 10:33:24</publishTime>
+      <publishTime>11/08/2013 16:49:27</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -60,9 +60,6 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>packages\Newtonsoft.Json.4.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Skybrud.Social">
-      <HintPath>packages\Skybrud.Social.0.0.0.7\lib\Skybrud.Social.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -320,6 +317,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\HyperlinksHelper.cs" />
+    <Compile Include="Helpers\InstagramHelper.cs" />
     <Compile Include="Helpers\RandomizerHelper.cs" />
     <Compile Include="Helpers\YouTubeVideoHelper.cs" />
     <Compile Include="Japan.aspx.cs">
