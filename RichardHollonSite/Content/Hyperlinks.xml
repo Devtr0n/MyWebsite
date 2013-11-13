@@ -10,7 +10,7 @@
   </hyperlink>
   <hyperlink>
       <Title>Melissa Dreams of Sushi</Title>
-      <URL>http://melissadreamsofsushi.com/</URL>
+      <URL>http://melissadreamsofsushi.com</URL>
   </hyperlink>
   <hyperlink>
       <Title>Texas State Historical Association - Biographies</Title>
@@ -22,7 +22,7 @@
   </hyperlink>
   <hyperlink>
       <Title>Testing untestable code thanks to MS Fakes</Title>
-      <URL>http://blog.christopheargento.net/2013/02/02/testing-untestable-code-thanks-to-ms-fakes/</URL>
+      <URL>http://blog.christopheargento.net/2013/02/02/testing-untestable-code-thanks-to-ms-fakes</URL>
   </hyperlink>
   <hyperlink>
       <Title>Favorite Visual Studio keyboard shortcuts [closed]</Title>
@@ -30,7 +30,7 @@
   </hyperlink>
   <hyperlink>
       <Title>Amir Rajan's blog</Title>
-      <URL>http://amirrajan.net/</URL>
+      <URL>http://amirrajan.net</URL>
   </hyperlink>
   <hyperlink>
       <Title>How to create a simple blog using ASP.NET MVC - Part I</Title>
@@ -38,11 +38,11 @@
   </hyperlink>
   <hyperlink>
     <Title>Darin Dimitrov Blog - dev. Bratched.com [en]</Title>
-    <URL>http://dev.bratched.com/en/author/darin/</URL>
+    <URL>http://dev.bratched.com/en/author/darin</URL>
   </hyperlink>
   <hyperlink>
     <Title>Richard Szalay Blog</Title>
-    <URL>http://blog.richardszalay.com/</URL>
+    <URL>http://blog.richardszalay.com</URL>
   </hyperlink>
   <hyperlink>
     <Title>Reserved Keywords (Transact-SQL) - SQL Server 2012</Title>
@@ -62,35 +62,35 @@
   </hyperlink>
   <hyperlink>
     <Title>SQL Execution Plan Basics by Grant Fritchey</Title>
-    <URL>https://www.simple-talk.com/sql/performance/execution-plan-basics/</URL>
+    <URL>https://www.simple-talk.com/sql/performance/execution-plan-basics</URL>
   </hyperlink>
   <hyperlink>
     <Title>Grant Fritchey SQL Server MVP, Red Gate Software Product Evangelist</Title>
-    <URL>https://www.simple-talk.com/author/grant-fritchey/</URL>
+    <URL>https://www.simple-talk.com/author/grant-fritchey</URL>
   </hyperlink>
   <hyperlink>
     <Title>Phil Haack's blog</Title>
-    <URL>http://haacked.com/</URL>
+    <URL>http://haacked.com</URL>
   </hyperlink>
   <hyperlink>
     <Title>Scott Hanselman's blog</Title>
-    <URL>http://www.hanselman.com/blog/</URL>
+    <URL>http://www.hanselman.com/blog</URL>
   </hyperlink>
   <hyperlink>
     <Title>Jimmy Bogard - Los Techies</Title>
-    <URL>http://lostechies.com/jimmybogard/</URL>
+    <URL>http://lostechies.com/jimmybogard</URL>
   </hyperlink>
   <hyperlink>
     <Title>Jeffrey Palermo's blog</Title>
-    <URL>http://jeffreypalermo.com/</URL>
+    <URL>http://jeffreypalermo.com</URL>
   </hyperlink>
   <hyperlink>
     <Title>David Gardiner's blog</Title>
-    <URL>http://david.gardiner.net.au/</URL>
+    <URL>http://david.gardiner.net.au</URL>
   </hyperlink>
   <hyperlink>
     <Title>Tofugu - Japanese Language and Culture</Title>
-    <URL>http://www.tofugu.com/</URL>
+    <URL>http://www.tofugu.com</URL>
   </hyperlink>
   <hyperlink>
     <Title>Koyoshi (Sushi) - Osaka Japan</Title>
@@ -102,7 +102,7 @@
   </hyperlink>
   <hyperlink>
     <Title>Tess Ferrandez - If broken it is, fix it you should</Title>
-    <URL>http://blogs.msdn.com/b/tess/</URL>
+    <URL>http://blogs.msdn.com/b/tess</URL>
   </hyperlink>
   <hyperlink>
     <Title>How to convert an ASP.NET Web Forms web application into ASP.NET MVC 3</Title>
@@ -114,7 +114,7 @@
   </hyperlink>
   <hyperlink>
     <Title>Byte Rot by Aliostad</Title>
-    <URL>http://byterot.blogspot.com/</URL>
+    <URL>http://byterot.blogspot.com</URL>
   </hyperlink>
   <hyperlink>
     <Title>Escape from Camp 14 by Blaine Harden</Title>
@@ -122,7 +122,7 @@
   </hyperlink>
   <hyperlink>
     <Title>Ayende @ Rahien - Refunds available at head office</Title>
-    <URL>http://ayende.com/Blog/</URL>
+    <URL>http://ayende.com/Blog</URL>
   </hyperlink>
   <hyperlink>
     <Title>Steven Sanderson's blog - As seen on YouTube™</Title>
@@ -139,5 +139,21 @@
   <hyperlink>
     <Title>Getting Started with ASP.NET MVC 5</Title>
     <URL>http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>The care and feeding of software engineers (or, why engineers are grumpy) by Nicholas C. Zakas</Title>
+    <URL>http://www.nczonline.net/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>My first go at Bacon Breakfast cups. Nailed it?</Title>
+    <URL>http://www.reddit.com/r/pics/comments/1aln2p/my_first_go_at_bacon_breakfast_cups_nailed_it/c8ymf6j</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>.NET Addict - A glimpse into the daily affairs of an ASP.NET MVC developer by Nathan Taylor.</Title>
+    <URL>http://blog.nathan-taylor.net</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>Think Like (a) Git - A Guide For the Perplexed.</Title>
+    <URL>http://think-like-a-git.net</URL>
   </hyperlink>
 </Hyperlinks>

@@ -40,27 +40,33 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
     <h2><a href="http://www.instagram.com/nekotakacho" target="_blank">My Random Instagram Photos</a></h2>
-            <% 
+            <%                
+                //get Instagram feed, randomized
+                var rndInstagramFeed = RandomizerHelper.Shuffle(InstagramHelper.GetInstagramFeed());
+                
+                //begin Instagram feed HTML tags
                 StringBuilder sb = new StringBuilder();
                 sb.Append(string.Format("<div class={0}>", "instagram"));
-                var rndInstagramFeed = RandomizerHelper.Shuffle(InstagramHelper.GetInstagramFeed());
-                int imageCount = 0;
                 
+                //determine if client is Mobile
+                int imageCount = 0;                
                 if (Request.Browser.IsMobileDevice)
                 {
-                    imageCount = 9;
+                    imageCount = 9; //true
                 }
                 else
                 {
-                    imageCount = 25;
+                    imageCount = 25; //false
                 }
 
+                //iterate out Instagram feed via HTML tags
                 foreach (var image in rndInstagramFeed.Take(imageCount))
                 {
                     sb.Append(string.Format("<div class={0}><a href={1} target={2} title={3}>", "instagram-placeholder", image.Link, "_blank", image.Name));
                     sb.Append(string.Format("<img class={0} src={1} /></a></div>", "instagram-image", image.URL));                    
                 }
           
+                //end Instagram feed HTML tags
                 sb.Append("</div>");
                 Response.Write(sb); 
             %>          
@@ -75,7 +81,7 @@
         <% 
             var rndYoutubeFeed = RandomizerHelper.Shuffle(YouTubeVideoHelper.GetVideos());
 
-            int videoWidth, videoHeight;
+            int videoWidth = 0, videoHeight = 0;
             
             if (Request.Browser.IsMobileDevice)
             {
@@ -122,7 +128,7 @@
             
             foreach (var v in rndHyperlinks.Take(6))
             {
-                sb.Append(string.Format("<li><a href={0} target={2}>{1}</a></li>", v.URL, v.Title, "_blank"));
+                sb.Append(string.Format("<li><a href={0} target={1}>{2}</a></li>", v.URL, "_blank", v.Title));
             }
             
             sb.Append("</ul>");
