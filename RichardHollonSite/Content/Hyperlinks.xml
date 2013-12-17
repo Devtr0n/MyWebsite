@@ -5,7 +5,7 @@
       <URL>http://msdn.microsoft.com/en-us/library/vstudio/da5kh0wa.aspx</URL>
   </hyperlink>
   <hyperlink>
-      <Title>NuGet Package of the Week #7 - ELMAH (Error Logging Modules and Handlers) with SQL Server Compact</Title>
+      <Title>NuGet Package of the Week #7 - ELMAH (Error Logging Modules And Handlers) with SQL Server Compact</Title>
       <URL>http://www.hanselman.com/blog/NuGetPackageOfTheWeek7ELMAHErrorLoggingModulesAndHandlersWithSQLServerCompact.aspx</URL>
   </hyperlink>
   <hyperlink>
@@ -154,6 +154,18 @@
   </hyperlink>
   <hyperlink>
     <Title>Think Like (a) Git - A Guide For the Perplexed.</Title>
-    <URL>http://think-like-a-git.net</URL>
+    <URL>http://www.think-like-a-git.net</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>Just Bento - The Weekly Bento Planner</Title>
+    <URL>http://www.justbento.com/handbook/downloads/weekly-bento-planner</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>Can I use... - Compatibility tables for support of HTML5, CSS3, SVG and more in desktop and mobile browsers.</Title>
+    <URL>http://www.caniuse.com/</URL>
+  </hyperlink>
+  <hyperlink>
+    <Title>AngularJS in 60 Minutes by Dan Wahlin</Title>
+    <URL>http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf</URL>
   </hyperlink>
 </Hyperlinks>

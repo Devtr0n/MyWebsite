@@ -208,7 +208,9 @@
     <Content Include="Images\twitter.png" />
     <Content Include="Images\youtube.png" />
     <Content Include="Media.aspx" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\Documents\Resume2013.docx" />
     <Content Include="Content\Documents\Resume2013.pdf" />
     <None Include="Properties\PublishProfiles\MyWebSite-RichardHollon.pubxml" />

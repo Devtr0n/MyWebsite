@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Xml.Linq;
 using System.Web;
+using System.Text;
 
 namespace RichardHollonSite.Helpers
 {
@@ -22,15 +23,32 @@ namespace RichardHollonSite.Helpers
             }
         }
 
-        public static FavoriteHyperlink[] GetFavoriteHyperlinks()
+        public static FavoriteHyperlink[] GetFavoriteHyperlinks(int count)
         {            
             string path = HttpContext.Current.Server.MapPath("~/Content/Hyperlinks.xml");
             var rows = XDocument.Load(path)
                                 .Root.Elements()
                                 .Select(row => new FavoriteHyperlink(row.Element("Title").Value, row.Element("URL").Value));
 
-            return rows.ToArray();
+            return rows.Take(count).ToArray();
 
+        }
+
+        public static StringBuilder GetRandomizedHyperlinks()
+        {
+            var rndHyperlinks = RandomizerHelper.Shuffle(HyperlinksHelper.GetFavoriteHyperlinks(6));
+
+            StringBuilder hyperlinks = new StringBuilder();
+            hyperlinks.Append("<div id='randomHyperlinks'><p><ul>");
+
+            foreach (var v in rndHyperlinks)
+            {
+                hyperlinks.Append(string.Format("<li><a href={0} target={1}>{2}</a></li>", v.URL, "_blank", v.Title));
+            }
+
+            hyperlinks.Append("</ul></p></div>");
+
+            return hyperlinks;
         }
     }
 }

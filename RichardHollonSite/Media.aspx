@@ -79,22 +79,25 @@
     <div class="youtube">
         <h2><a href="http://www.youtube.com/Blueberryfarm" target="_blank">My YouTube Channel</a></h2>
         <% 
-            var rndYoutubeFeed = RandomizerHelper.Shuffle(YouTubeVideoHelper.GetVideos());
+            //let's get '8' random videos from my Youtube channel
+            var rndYoutubeFeed = RandomizerHelper.Shuffle(YouTubeVideoHelper.GetVideos(8));
 
             int videoWidth = 0, videoHeight = 0;
             
             if (Request.Browser.IsMobileDevice)
             {
+                //mobile dimensions
                 videoWidth = 250;
                 videoHeight = 150;
             }
             else
             {
+                //non-mobile dimensions
                 videoWidth = 450;
                 videoHeight = 250;                
             }
             
-            foreach (var v in rndYoutubeFeed.Take(8))
+            foreach (var v in rndYoutubeFeed)
             { %>
                     <object>
                         <param name="movie" value="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" />
@@ -119,23 +122,15 @@
     </div>
 
     <div>
-        <h2>6 Random Web Links</h2>
-        <p>
-        <% 
-            var rndHyperlinks = RandomizerHelper.Shuffle(HyperlinksHelper.GetFavoriteHyperlinks());
-            sb = new StringBuilder();
-            sb.Append("<ul>");
-            
-            foreach (var v in rndHyperlinks.Take(6))
-            {
-                sb.Append(string.Format("<li><a href={0} target={1}>{2}</a></li>", v.URL, "_blank", v.Title));
-            }
-            
-            sb.Append("</ul>");
-            Response.Write(sb);           
-        %>
-        </p>
+        <h2 onclick="alert('hi2'); $('#randomHyperlinks').empty(); var col=document.getElementById('randomHyperlinks'); col.innerHTML='<%=HyperlinksHelper.GetRandomizedHyperlinks().ToString()%>'">6 Random Web Links</h2>
+            <% Response.Write(HyperlinksHelper.GetRandomizedHyperlinks()); %>
     </div>
+
+
+<%--    <div>
+        <h2 onclick="alert('hi1'); $('#randomHyperlinks').empty(); alert('hi2'); $('#randomHyperlinks').innerHTML='<%=HyperlinksHelper.GetRandomizedHyperlinks().ToString()%>'; alert('hi3');">6 Random Web Links</h2>
+            <% Response.Write(HyperlinksHelper.GetRandomizedHyperlinks()); %>
+    </div>--%>
 
     <script type="text/javascript" src="/Scripts/gmap3.min.js"></script>
 	<script type="text/javascript">
