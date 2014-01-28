@@ -1,0 +1,13 @@
+﻿git add -A
+git commit -a -m 'comment here'
+git push -u origin master
+
+uid/pwd
+
+
+------
+
+
+git reset --hard
+git clean -f -d
+git clean -f -x -d

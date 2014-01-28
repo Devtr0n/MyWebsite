@@ -36,15 +36,15 @@
         </p>
 
         <p>        
-            Currently he resides in South Austin Texas and works as a .NET Web Developer (contractor) for the Department of State Health Services in the Women, Infants and Children (WIC) program. His project is written in C# 4.0, ASP.NET MVC 3.0, SQL 2008 r2 and Team Foundation Server. An avid traveller, he has recently been to Hong Kong & Macau (2011), Manila & southern Japan (2012) and Philadelphia, Pennsylvania (2013).            
+            Currently he resides in South Austin Texas (but moving to downtown) and works as a full-time .NET Web Developer (Programmer V) for the Texas Education Agency. His project is written in C# 4.0, ASP.NET, SQL 2008 r2 using Cruise Control .NET as a CI server. An avid traveller, he has recently been to Hong Kong & Macau (2011), Manila & southern Japan (2012) and Philadelphia, Pennsylvania (2013).            
         </p>
 
         <p>
-            In his free time, Richard enjoys: playing guitar, cooking, homebrewing beer, bicycling in Austin's parks, fresh water fishing, bird hunting, Chevrolet automotive repair, editing vacation videos.
+            In his free time, Richard enjoys: playing guitar, cooking, homebrewing beer, bicycling in Austin's parks, fresh water fishing, bird hunting, Chevrolet automotive repair, two steppin' across Texas and editing wacky vacation videos.
         </p>
 
         <p>        
-            In the future Richard hopes to travel outside of the USA, start a family, purchase a house and start a business or even own a restaurant. An overdue vacation to Japan is on the horizon!!
+            In the future Richard hopes to travel overseas, maybe start a family, purchase a house and possibly even own a restaurant. An overdue vacation to somewhere in Asia is on the horizon (South Korea?)!! He also greatly misses Australia and his many mates there.
         </p>
     </article>
 

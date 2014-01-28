@@ -103,10 +103,20 @@
         </header>
         <div id="accordion">
 
-            <h3>Texas Department of State Health Services & United States Department of Agriculture - .NET Web Developer/Software Consultant - May 2013 - Present</h3>
+            <h3>Texas Education Agency - Programmer V (.NET) - Austin, Texas - Feb 2014 – present</h3>
             <div>
                 <p>
-                    Current Work Experience summary.
+                    Current Experience summary.
+                </p>
+                <ul>
+                    <li>ASP.NET, C#, SQL 2008 & Cruise Control .NET. To be continued.</li>
+                </ul>
+            </div>
+
+            <h3>Texas Department of State Health Services & United States Department of Agriculture - .NET Web Developer/Software Consultant - May 2013 - Jan 2014</h3>
+            <div>
+                <p>
+                    WIC Experience summary.
                 </p>
                 <ul>
                     <li>Modified, upgraded, released & deployed the Nutritional Education & Breastfeeding Plan web system to support the 2014 Fiscal year breastfeeding classes for DSHS used in 76 counties across Texas.</li>
