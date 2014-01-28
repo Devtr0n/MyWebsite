@@ -69,7 +69,7 @@
         </header>
         <p>
             I am a Microsoft Certified Professional (MCP) & Microsoft Certified Technology Specialist (MCTS) with over 12 years of industry experience. I enjoy working in the Microsoft .NET stack, Agile methodologies, complex problem solving and custom business solution strategies. I also really like <i>POWERSHELL</i>. 
-            I have been fortunate to work and collaborate on many different types of projects, from enterprise level, startups, government agencies to being the only developer at a company. I have worked with five government agencies on enterprise level projects, as well as having worked with the largest agribusiness in Australia (ABB Grain Limited). I have also worked for privately and publicly owned companies with projects and teams of all sizes.</br>
+            I have been fortunate to work and collaborate on many different types of projects, from enterprise level, startups, government agencies to being the only developer at a company. I have worked with five government agencies on enterprise level projects, as well as having worked with the largest agribusiness in Australia (ABB Grain Limited). I have also worked for privately and publicly owned companies with projects and teams of all sizes.<br>
             <br />
             Specialties include: .NET development, Agile development, POWERSHELL, database technologies, build server technologies, continuous integration administration, and much, much more.
         </p>

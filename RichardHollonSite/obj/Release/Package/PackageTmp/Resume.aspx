@@ -69,7 +69,7 @@
         </header>
         <p>
             I am a Microsoft Certified Professional (MCP) & Microsoft Certified Technology Specialist (MCTS) with over 12 years of industry experience. I enjoy working in the Microsoft .NET stack, Agile methodologies, complex problem solving and custom business solution strategies. I also really like <i>POWERSHELL</i>. 
-            I have been fortunate to work and collaborate on many different types of projects, from enterprise level, startups, government agencies to being the only developer at a company. I have worked with five government agencies on enterprise level projects, as well as having worked with the largest agribusiness in Australia (ABB Grain Limited). I have also worked for privately and publicly owned companies with projects and teams of all sizes.</br>
+            I have been fortunate to work and collaborate on many different types of projects, from enterprise level, startups, government agencies to being the only developer at a company. I have worked with five government agencies on enterprise level projects, as well as having worked with the largest agribusiness in Australia (ABB Grain Limited). I have also worked for privately and publicly owned companies with projects and teams of all sizes.<br>
             <br />
             Specialties include: .NET development, Agile development, POWERSHELL, database technologies, build server technologies, continuous integration administration, and much, much more.
         </p>
@@ -103,10 +103,20 @@
         </header>
         <div id="accordion">
 
-            <h3>Texas Department of State Health Services & United States Department of Agriculture - .NET Web Developer/Software Consultant - May 2013 - Present</h3>
+            <h3>Texas Education Agency - Programmer V (.NET) - Austin, Texas - Feb 2014 – present</h3>
             <div>
                 <p>
-                    Current Work Experience summary.
+                    Current Experience summary.
+                </p>
+                <ul>
+                    <li>ASP.NET, C#, SQL 2008 & Cruise Control .NET. To be continued.</li>
+                </ul>
+            </div>
+
+            <h3>Texas Department of State Health Services & United States Department of Agriculture - .NET Web Developer/Software Consultant - May 2013 - Jan 2014</h3>
+            <div>
+                <p>
+                    WIC Experience summary.
                 </p>
                 <ul>
                     <li>Modified, upgraded, released & deployed the Nutritional Education & Breastfeeding Plan web system to support the 2014 Fiscal year breastfeeding classes for DSHS used in 76 counties across Texas.</li>
