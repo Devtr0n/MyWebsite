@@ -52,7 +52,7 @@
     <br />
     <div class="content-wrapper">
         <div class="resume-download">
-            <p>Download Resume: <a href="/Content/Documents/Resume2013.docx" target="_blank">.docx</a> | <a href="/Content/Documents/Resume2013.pdf" target="_blank">.pdf</a></p>
+            <p>Download Resume: <a href="/Content/Documents/Resume2014.pdf" target="_blank">.pdf</a></p>
         </div>
     </div>
     <br />
@@ -352,7 +352,7 @@
             <h2>Download Resume</h2>
         </header>    
         <p>
-            <a href="/Content/Documents/Resume2013.docx" target="_blank">.docx</a> | <a href="/Content/Documents/Resume2013.pdf" target="_blank">.pdf</a>
+            <a href="/Content/Documents/Resume2014.pdf" target="_blank">.pdf</a>
         </p>
 
     </section>

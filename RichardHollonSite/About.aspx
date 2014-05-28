@@ -31,20 +31,20 @@
     
     <article>
         <p>        
-            Richard Hollon was born in the wee hours of a hot summer night in July of 1980 at Valley Baptist Medical Center in Harlingen, Texas (about eleven miles from Mexico).
-            As a <a href="http://www.texasmonthly.com/story/native-texan" target="_blank">third-generation Native Texan,</a> Richard grew up in Harlingen (Texas), Houston (Texas), Jeddah (Saudi Arabia), Katy (Texas), Plano (Texas), Waco (Texas), Adelaide (South Australia) and ultimately: Austin (Texas).
+            Richard Hollon was born on a hot summer night in July of 1980 at Valley Baptist Medical Center in Harlingen, Texas (approximately eleven miles from Mexico).
+            As a <a href="http://www.texasmonthly.com/story/native-texan" target="_blank">third-generation Native Texan,</a> Richard grew up in the Texas cities of: Harlingen, Houston, Katy, Plano, Waco and has also lived in: Jeddah (Saudi Arabia), Adelaide (South Australia) and ultimately: Austin (Texas).
         </p>
 
         <p>        
-            Currently he resides in South Austin Texas (but moving to downtown) and works as a full-time .NET Web Developer (Programmer V) for the Texas Education Agency. His project is written in C# 4.0, ASP.NET, SQL 2008 r2 using Cruise Control .NET as a CI server. An avid traveller, he has recently been to Hong Kong & Macau (2011), Manila & southern Japan (2012) and Philadelphia, Pennsylvania (2013).            
+            Currently he resides in downtown Austin Texas working full-time as a .NET Web Developer (Programmer V) for the Texas Education Agency. The project he works on is written in C# 4.0, ASP.NET, SQL 2008 r2 using Cruise Control .NET as a CI server. An avid traveller, he has most recently been to Hong Kong & Macau (2011), Manila & southern Japan (2012) and Philadelphia, Pennsylvania (2013).            
         </p>
 
         <p>
-            In his free time, Richard enjoys: playing guitar, cooking, homebrewing beer, bicycling in Austin's parks, fresh water fishing, bird hunting, Chevrolet automotive repair, two steppin' across Texas and editing wacky vacation videos.
+            In his free time, Richard enjoys: playing his Martin guitar (a lefty), cooking many different things, homebrewing beer, coldbrewing coffee, bicycling through Austin's parks and trails, fresh water fishing, dove hunting, Chevrolet automotive repair, two steppin' across Texas and editing wacky vacation videos and so much more.
         </p>
 
         <p>        
-            In the future Richard hopes to travel overseas, maybe start a family, purchase a house and possibly even own a restaurant. An overdue vacation to somewhere in Asia is on the horizon (South Korea?)!! He also greatly misses Australia and his many mates there.
+            In the future Richard hopes to travel overseas, start a family, purchase a house and maybe even own a restaurant. An overdue vacation to somewhere in Asia is on the horizon (South Korea?)!! Richard also greatly misses Australia and his many mates there.
         </p>
     </article>
 

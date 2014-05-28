@@ -212,8 +212,7 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\Documents\Resume2013.docx" />
-    <Content Include="Content\Documents\Resume2013.pdf" />
+    <Content Include="Content\Documents\Resume2014.pdf" />
     <None Include="Properties\PublishProfiles\MyWebSite-RichardHollon.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Portfolio.aspx" />
