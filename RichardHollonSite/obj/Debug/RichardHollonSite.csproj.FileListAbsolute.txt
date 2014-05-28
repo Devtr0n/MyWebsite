@@ -88,4 +88,3 @@ C:\Workspace\MyWebsite\RichardHollonSite\bin\Newtonsoft.Json.pdb
 C:\Workspace\MyWebsite\RichardHollonSite\bin\Newtonsoft.Json.xml
 C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.dll
 C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.pdb
-C:\Workspace\MyWebsite\RichardHollonSite\obj\Debug\RichardHollonSite.csprojResolveAssemblyReference.cache
