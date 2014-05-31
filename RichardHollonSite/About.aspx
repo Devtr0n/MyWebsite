@@ -49,7 +49,7 @@
     </article>
 
     <aside>
-        <asp:Image ID="imgSide" runat="server" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg"/>
+        <asp:Image ID="imgSide" runat="server" ImageUrl="~/Images/richard_hollon.jpg"/>
         <ul>
             <li><a runat="server" href="~/Resume.aspx">Resume</a></li>
             <li><a runat="server" href="~/Contact.aspx">Contact</a></li>

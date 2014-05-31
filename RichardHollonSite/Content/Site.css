@@ -145,11 +145,11 @@ a {
 
     a:link, a:visited,
     a:active, a:hover {
-        color: #0026ff;
+        color: #0026ff; /* blue */
     }
 
     a:hover {
-        background-color: #65FF29;
+        background-color: #65FF29; /* green */
     }
 
 header, footer, hgroup,
