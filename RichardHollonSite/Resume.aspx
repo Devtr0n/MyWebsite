@@ -105,19 +105,22 @@
 
             <h3>Texas Education Agency - Programmer V (.NET) - Austin, Texas - Feb 2014 – present</h3>
             <div>
-                <p>
+<%--                <p>
                     Current Experience summary.
-                </p>
+                </p>--%>
                 <ul>
-                    <li>ASP.NET, C#, SQL 2008 & Cruise Control .NET. To be continued.</li>
+                    <li>Maintained, supported and enhanced eGrants, a legacy ASP.NET 3.5 web application distributing $20 billion yearly in education grants for Texas public school funding.</li>
+                    <li>Upgraded Java 7 SE executables (.JAR) for the IBM Filenet eProcess platform, resulting in a major bug fix for all eGrants users.</li>
+                    <li>Implemented updates to the No Child Left Behind 2014 schedule for federal and state compliancy.</li>
+                    <li>Supported, modified, maintained and customized CruiseControl.NET build scripts (NANT) for the eGrants application.</li>
                 </ul>
             </div>
 
             <h3>Texas Department of State Health Services & United States Department of Agriculture - .NET Web Developer/Software Consultant - May 2013 - Jan 2014</h3>
             <div>
-                <p>
+<%--                <p>
                     WIC Experience summary.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Modified, upgraded, released & deployed the Nutritional Education & Breastfeeding Plan web system to support the 2014 Fiscal year breastfeeding classes for DSHS used in 76 counties across Texas.</li>
                     <li>Re-factored, modified, upgraded, tuned, tested & deployed WICStaff, a Microsoft ASP.NET MVC 3 application in a Windows 2003 environment, adhering to all government policies, procedures, requirements and guidelines.</li>
@@ -133,9 +136,9 @@
 
             <h3>Double Line Inc/Michael Susan Dell Foundation - C# Deployment Specialist/Contractor - Austin, Texas - Oct 2012 – May 2013</h3>
             <div>
-                <p>
+<%--                <p>
                     Double Line Experience summary.
-                </p>
+                </p>--%>
                     <ul>
                         <li>Modified, re-factored and produced Powershell automation scripts for local SQL databases used by teams of SQL SSIS/ETL developers.</li>
                         <li>Supported SSIS/ETL developers, business analysts and entire organization of 50+ users with troubleshooting system, network and local level computer problems.</li>
@@ -149,9 +152,9 @@
 
             <h3>Incenergy - Software Engineer - Austin, Texas - July 2010 – Oct 2012</h3>
             <div>
-                <p>
+<%--                <p>
                     Incenergy experience summary.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Prototyped, constructed, automated and publicly released Incenergy’s flagship EMS Web Portal product, written in FLEX 4.5 with a C#.NET 4.0 backend.</li>
                     <li>Collaboratively developed and released the iPhone iOS5 dashboard application to the iTunes App Store (for sale to the public).</li>
@@ -168,9 +171,9 @@
 
             <h3>HVJ Associates, Inc - Software Architect - May 2009 – March 2010</h3>
             <div>
-                <p>
+<%--                <p>
                     HVJ experience.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Single handedly architected, designed, developed, tested, packaged & deployed four .NET applications used by city road work & GIS departments: 
                         <ul>
@@ -192,9 +195,9 @@
 
             <h3>ABB Grain Limited - .NET Software Consultant - Adelaide CBD, South Australia - July – Dec 2008</h3>
             <div>
-                <p>
+<%--                <p>
                     ABB Grain AoM experience.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Developed on, launched and supported a custom enterprise level Automation of Movements (AoM) system for Australia’s largest international agribusiness, for processing grain commodities at and between 250+ grain silos across the country of Australia.</li>
                     <li>Implemented custom SQL 2008 Change Tracking system for “occasionally connected” remote database interaction via ADO.NET Sync Services, in a multilevel database schema, in a multi-tiered application environment, supporting Wi-Fi and dial-up connections.</li>
@@ -212,9 +215,9 @@
 
             <h3>Texas Department of Transportation - Motor Vehicle Division - Software Consultant - Feb 2007 – June 2008</h3>
             <div>
-                <p>
+<%--                <p>
                     TXDOT LACE experience summary.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Developed on, launched and supported a custom enterprise level web application for Licensing, Administration, Consumer Affairs and Enforcement sections of the Motor Vehicle Division of TXDot.</li>
                     <li>Supported LACE system and implemented required bug fixes for software defects using ASP.NET, VB.NET, T-SQL, FileNET IS and XML. </li>
@@ -228,9 +231,9 @@
 
             <h3>Homecity, Inc - Software Engineer - Austin, Texas - Feb – Sept 2006</h3>
             <div>
-                <p>
+<%--                <p>
                     Homecity experience summary.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Designed and implemented a transactional management system for real-estate listings via C#.NET, VB.NET, WSE 3.0 Web Services, XML & ASP.NET. Web Services consumed from http://www.sureclose.com/ .</li>
                     <li>Developed agent data approval notification system with HTML and DTS packages.</li>
@@ -242,9 +245,9 @@
 
             <h3>Texas CHIP Project/Affiliated Computer Systems Inc - .NET Software Consultant - Austin, Texas - June – Nov 2005</h3>
             <div>
-                <p>
+<%--                <p>
                     ACS, Inc - Texas CHIP experience summary.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Participated within a development team on the financial portion of the Children’s Health Insurance Program (CHIP) for the State of Texas.</li>
                     <li>Produced and defined a 500-page data dictionary covering the complete TX CHIP application’s Oracle9 database structure (over 400 tables). Documented database objects, their purpose, size, data types, descriptions, foreign keys and constraints.</li>
@@ -257,9 +260,9 @@
 
             <h3>American Auto Exchange / JMFamily - Software Developer - Austin, Texas - June 2004 - June 2005</h3>
             <div>
-                <p>
+<%--                <p>
                     AAXCHANGE experience summary.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Developed, maintained and supported a custom web-based vehicle inventory management system for over 800 automotive dealerships nationwide.</li>
                     <li>Developed web-based applications using ASP, SQL Server 7 & 8, JavaScript, HTML and VBScript.</li>
@@ -275,9 +278,9 @@
 
             <h3>Innovative Aftermarket Systems, Inc - Software Developer - Austin, Texas - July 2002 – May 2004</h3>
             <div>
-                <p>
+<%--                <p>
                     IAS experience summary.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Developed custom Windows applications for automotive dealership software supporting a wide array of business functions.</li>
                     <li>Developed multi-tier applications using Visual Basic 6, SQL Server 2000, MS Access 7, Visual Basic.net and OOD.</li>
@@ -292,9 +295,9 @@
 
             <h3>Novosad, Hayes and Associates - Junior Software Engineer - Houston, Texas - Sept 2001 – April 2002</h3>
             <div>
-                <p>
+<%--                <p>
                     NHA ODVA experience summary.
-                </p>
+                </p>--%>
                 <ul>
                     <li>Developed multi-tier enterprise applications using Visual Basic.net and OOD.</li>
                     <li>Developed custom .NET and Windows applications for the Oklahoma Department of Veteran’s Affairs to support a wide array of business functions.</li>
