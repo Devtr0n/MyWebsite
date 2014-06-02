@@ -39,7 +39,7 @@
     <meta name="viewport" content="width=device-width" />
 
     <aside>
-        <asp:Image ID="imgSelf" runat="server" ImageUrl="http://distilleryimage1.s3.amazonaws.com/9049f136fef211e2914022000a9e0653_5.jpg"/>
+        <asp:Image ID="imgSelf" runat="server" ImageUrl="~/Images/richard_hollon.jpg"/>
         <ul>
             <li><a id="A1" runat="server" href="~/Resume.aspx">Resume</a></li>
             <li><a id="A2" runat="server" href="~/Contact.aspx">Contact</a></li>
