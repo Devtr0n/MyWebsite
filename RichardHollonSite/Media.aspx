@@ -79,8 +79,8 @@
     <div class="youtube">
         <h2><a href="http://www.youtube.com/Blueberryfarm" target="_blank">My YouTube Channel</a></h2>
         <% 
-            //let's get '8' random videos from my Youtube channel
-            var rndYoutubeFeed = RandomizerHelper.Shuffle(YouTubeVideoHelper.GetVideos(8));
+            //let's get all videos from my Youtube channel and shuffle them!
+            var randomFeed = RandomizerHelper.Shuffle(YouTubeVideoHelper.GetVideos()).ToArray();
 
             int videoWidth = 0, videoHeight = 0;
             
@@ -97,7 +97,8 @@
                 videoHeight = 250;                
             }
             
-            foreach (var v in rndYoutubeFeed)
+            //let's only display 8, even though we fetched 50 or more :( //to-do: fix me, this is weak sauce
+            foreach (var v in randomFeed.Take(8).ToArray())
             { %>
                     <object>
                         <param name="movie" value="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" />
