@@ -40,7 +40,7 @@
         </p>
 
         <p>
-            In his free time, Richard enjoys: playing his Martin guitar (a lefty), cooking many different things, homebrewing beer, coldbrewing coffee, bicycling through Austin's parks and trails, fresh water fishing, dove hunting, Chevrolet automotive repair, two steppin' across Texas and editing wacky vacation videos and so much more.
+            In his free time, Richard enjoys: playing his Martin guitar (a lefty), cooking many different things, coldbrewing coffee, bicycling Austin's trails and new boardwalk, fresh water fishing, swimming, south Texas dove hunting, Chevrolet automotive repair, two steppin' across Texas, editing wacky vacation videos and so much more.
         </p>
 
         <p>        
