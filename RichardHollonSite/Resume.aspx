@@ -68,10 +68,10 @@
             <h2>Background</h2>
         </header>
         <p>
-            I am a Microsoft Certified Professional (MCP) & Microsoft Certified Technology Specialist (MCTS) with over 12 years of industry experience. I enjoy working in the Microsoft .NET stack, Agile methodologies, complex problem solving and custom business solution strategies. I also really like <i>POWERSHELL</i>. 
-            I have been fortunate to work and collaborate on many different types of projects, from enterprise level, startups, government agencies to being the only developer at a company. I have worked with five government agencies on enterprise level projects, as well as having worked with the largest agribusiness in Australia (ABB Grain Limited). I have also worked for privately and publicly owned companies with projects and teams of all sizes.<br>
+            I am a Microsoft Certified Professional (MCP) & Microsoft Certified Technology Specialist (MCTS) with 13 years of industry experience. I enjoy working in the Microsoft .NET technology stack, Agile methodologies, Continuous Integration, complex problem solving and custom business solution strategies. I also take a fancy to <i>POWERSHELL</i>. 
+            I have been fortunate to work and collaborate on many different types of projects, from enterprise level, startups, government agencies to being the only developer at a small company. I have worked with six government agencies on enterprise level projects, as well as having worked with the largest agribusiness in Australia (ABB Grain Limited). I have also worked for privately and publicly owned companies with projects and teams of all sizes.<br>
             <br />
-            Specialties include: .NET development, Agile development, POWERSHELL, database technologies, build server technologies, continuous integration administration, and much, much more.
+            Specialties include: .NET development, Agile development, POWERSHELL, database technologies, build server technologies, continuous integration administration, web server administration and so much more.
         </p>
 
         <header>
@@ -96,7 +96,7 @@
         <p>Team Foundation Server, CruiseControl.NET, TeamCity, MSBuild, GIT Administration, MediaWiki, Agilo, SVN Administration, nCoverage, OnTime, nUnit, ANT, Resharper, SCRUM, Peer code review.</p>
 
         <h2>Skills</h2>
-        <p>Powershell, AWS EC2 & S3, CruiseControl.NET, Google Maps API, NuGet, Elmah, nANT, IIS5-7, SSL certificates, Windows Scheduled Tasks, SSIS Packages, SSH, ADO.NET, D/COM, SQL Backups, Win32 APIs, CDO, DB Unit Testing, Agile Methodology, SCRUM, WPF, REST Web Services, Ebay API, ODBC, OLE DB, MSDN, CSLA.NET, Apple iTunes Store and more.</p>
+        <p>Powershell, AWS EC2 & S3, CruiseControl.NET, Google Maps API, JSON, NuGet, Elmah, nANT, IIS5-7, SSL certificates, SOAP, Windows Scheduled Tasks, SSIS Packages, SSH, ADO.NET, D/COM, SQL Backups, Win32 APIs, CDO, DB Unit Testing, Agile Methodology, SCRUM, WPF, REST Web Services, Ebay API, ODBC, OLE DB, MSDN, CSLA.NET, Apple iTunes Store and more.</p>
 
         <header>
             <h2>Experience</h2>

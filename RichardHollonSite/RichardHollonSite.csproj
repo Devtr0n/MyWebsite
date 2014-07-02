@@ -185,6 +185,9 @@
     <Content Include="Images\portfolio\incenergy-charting.png" />
     <Content Include="Images\portfolio\incenergy-hvac-overrides.png" />
     <Content Include="Images\portfolio\incenergy-scheduling.png" />
+    <Content Include="Images\portfolio\wic-nebf-bfplan.png" />
+    <Content Include="Images\portfolio\wic-nebf-edit-class.png" />
+    <Content Include="Images\portfolio\wic-nebf-maingridview.png" />
     <Content Include="Images\richard_hollon.jpg" />
     <Content Include="Japan.aspx" />
     <Content Include="MenuDock.html" />

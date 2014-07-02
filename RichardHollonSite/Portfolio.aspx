@@ -38,19 +38,27 @@
 
     <meta name="viewport" content="width=device-width" />
 
-    <aside>
+<%--    <aside>
         <asp:Image ID="imgSelf" runat="server" ImageUrl="~/Images/richard_hollon.jpg"/>
         <ul>
             <li><a id="A1" runat="server" href="~/Resume.aspx">Resume</a></li>
             <li><a id="A2" runat="server" href="~/Contact.aspx">Contact</a></li>
         </ul>
-    </aside>
+    </aside>--%>
 
 <article>
     <header><h2>NEBF</h2></header>
     <div>
-        <p>        
-            Portfolio NEBF.
+        <p style="grid-column-align:center">
+            <a href="/Images/portfolio/wic-nebf-maingridview.png" target="_blank" title="View WIC NEBF Main Grid View">
+                <img id="imgWICNEBF1" alt="View WIC NEBF Main Grid" src="Images/portfolio/wic-nebf-maingridview.png?width=200">
+            </a>
+            <a href="/Images/portfolio/wic-nebf-edit-class.png" target="_blank" title="View WIC NEBF Breastfeeding Class Edit">
+                <img id="imgWICNEBF3" alt="View WIC NEBF Breastfeeding Class Edits" src="Images/portfolio/wic-nebf-edit-class.png?width=180">
+            </a>                            
+            <a href="/Images/portfolio/wic-nebf-bfplan.png" target="_blank" title="View WIC NEBF Breastfeeding Plan">
+                <img id="imgWICNEBF2" alt="View WIC NEBF Breastfeeding Plan" src="Images/portfolio/wic-nebf-bfplan.png?width=180">
+            </a>
         </p>
     </div>
 
