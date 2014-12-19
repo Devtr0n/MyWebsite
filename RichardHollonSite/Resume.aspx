@@ -52,7 +52,7 @@
     <br />
     <div class="content-wrapper">
         <div class="resume-download">
-            <p>Download Resume: <a href="/Content/Documents/Resume2014.pdf" target="_blank">.pdf</a></p>
+            <p>Download Resume: <a href="/Content/Documents/RichardHollonResume2015.pdf" target="_blank">.pdf</a></p>
         </div>
     </div>
     <br />
@@ -110,9 +110,14 @@
                 </p>--%>
                 <ul>
                     <li>Maintained, supported and enhanced eGrants, a legacy ASP.NET 3.5 web application distributing $20 billion yearly in education grants for Texas public school funding.</li>
-                    <li>Upgraded Java 7 SE executables (.JAR) for the IBM Filenet eProcess platform, resulting in a major bug fix for all eGrants users.</li>
+                    <li>Upgraded Java 7 SE executables (.JAR) for the IBM FileNet eProcess platform, resulting in a major bug fix for all eGrants users.</li>
                     <li>Implemented updates to the No Child Left Behind 2014 schedule for federal and state compliancy.</li>
-                    <li>Supported, modified, maintained and customized CruiseControl.NET build scripts (NANT) for the eGrants application.</li>
+                    <li>Assisted in TEA's domain name transition from www.tea.state.tx.us to tea.texas.gov. Updated approximately 1200 URLs in eGrants domain via PowerShell scripting.</li>
+                    <li>Architected, designed, developed, built, tested and released the 2015 NCLB (No Child Left Behind) Federal Report card for auditing of Highly Qualified Teachers at the state, district and campus levels. Utilized iTextSharp PDF API for manipulation of PDF form data fields and wrote a complex SQL stored procedure between linked databases, avoiding database timeouts.</li>
+                    <li>Refactored legacy Windows scheduled tasks and SQL scripts designed for replicating reporting data nightly between two databases. Consolidated SQL statements (10,000+ lines) into reusable and transactional rollback components, with verbose logging and email notifications.</li>
+                    <li>Expanded application-wide custom exception publishing into specific code targets for logging verbosity of untraceable exceptions. Added user information, class/method names and custom messages into exception details for exception publishing following specific TEA protocol.</li>
+                    <li>Refactored 2000+ lines of IBM’s FileNet DAL code, removing critical dependency for producing Grant Program menu links (URLs). This resulted in alleviating the public facing web server of over 60,000 unnecessary network calls in a 9 month span. Used embedded resource bypassing any network activity all together, resolving production IIS errors.</li>
+                    <li>Supported, modified, maintained eGrants CruiseControl.NET build server.</li>
                 </ul>
             </div>
 
@@ -355,7 +360,7 @@
             <h2>Download Resume</h2>
         </header>    
         <p>
-            <a href="/Content/Documents/Resume2014.pdf" target="_blank">.pdf</a>
+            <a href="/Content/Documents/RichardHollonResume2015.pdf" target="_blank">.pdf</a>
         </p>
 
     </section>

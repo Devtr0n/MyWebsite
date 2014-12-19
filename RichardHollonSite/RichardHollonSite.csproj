@@ -217,6 +217,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Content\Documents\Resume2014.pdf" />
+    <Content Include="Content\Documents\RichardHollonResume2015.pdf" />
     <None Include="Properties\PublishProfiles\MyWebSite-RichardHollon.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Portfolio.aspx" />
