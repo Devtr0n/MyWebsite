@@ -62,8 +62,8 @@
                 //iterate out Instagram feed via HTML tags
                 foreach (var image in rndInstagramFeed.Take(imageCount))
                 {
-                    sb.Append(string.Format("<div class={0}><a href={1} target={2} title={3}>", "instagram-placeholder", image.Link, "_blank", image.Caption));
-                    sb.Append(string.Format("<img class={0} src={1} /></a></div>", "instagram-image", image.URL));                    
+                    sb.Append(string.Format("<div class={0}><a href={1} width=100% height=100% target={2} title={3}>", "instagram-placeholder", image.Link, "_blank", image.Caption));
+                    sb.Append(string.Format("<img class={0} src={1}></img></a></div>", "instagram-image", image.URL));                    
                 }
           
                 //end Instagram feed HTML tags

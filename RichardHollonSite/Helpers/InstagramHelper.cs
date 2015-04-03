@@ -58,13 +58,19 @@ namespace RichardHollonSite.Helpers
                         try
                         {
                             image.Caption = data.caption.text;
+                            image.URL = data.images.thumbnail.url;
+                            image.Tags = data.tags;
                         }
                         catch
                         {
                             image.Caption = String.Empty;
+                            image.URL = String.Empty;
+                            image.Tags = new JArray();
                         }
-                        image.URL = data.images.thumbnail.url;
-                        feed.Add(image);
+                        if ((!image.Tags.Contains("beer")) || (!image.Caption.Contains("beer"))) {
+                            feed.Add(image);
+                        }
+                     
                     }
                 }
             }
@@ -78,6 +84,7 @@ namespace RichardHollonSite.Helpers
             public string Link { get; set; }
             public string Caption { get; set; }
             public string URL { get; set; }
+            public JArray Tags { get; set; }
         }
 
     }

@@ -103,8 +103,9 @@
  .instagram-placeholder {
     float:left;
     /*width:15%;
-    height:15%;*/
-    border:3px double #999;
+    height:15%;
+    border:3px double #999;*/  
+    border: 3px double blue;
 
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
