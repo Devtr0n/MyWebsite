@@ -1,7 +1,9 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Text;
@@ -54,22 +56,40 @@ namespace RichardHollonSite.Helpers
                     foreach (var data in results.data)
                     {
                         InstagramImage image = new InstagramImage();
-                        image.Link = data.link;
+
                         try
                         {
                             image.Caption = data.caption.text;
                             image.URL = data.images.thumbnail.url;
-                            image.Tags = data.tags;
+                            image.Tags = data.tags ?? null;
+                            image.Link = data.link;
+                            image.isPublic = true;
+
+                            //Debug.WriteLine("Tags found: " + image.Tags.Count.ToString());
+
+                            //inspect the Instagram image tags
+                            foreach (String tag in image.Tags)
+                            {
+                                //filter out "beer" pictures
+                                if (tag.Equals("beer") || tag.Equals("sourbeer"))
+                                {
+                                    image.isPublic = false;
+                                }
+                            }
+
+                            //add the Instagram image to the output feed
+                            if (image.isPublic)
+                            {
+                                feed.Add(image);
+                            }
                         }
                         catch
                         {
                             image.Caption = String.Empty;
                             image.URL = String.Empty;
-                            image.Tags = new JArray();
-                        }
-                        if ((!image.Tags.Contains("beer")) || (!image.Caption.Contains("beer"))) {
-                            feed.Add(image);
-                        }
+                            image.Tags = null;
+                            image.isPublic = false;
+                        }                     
                      
                     }
                 }
@@ -85,6 +105,7 @@ namespace RichardHollonSite.Helpers
             public string Caption { get; set; }
             public string URL { get; set; }
             public JArray Tags { get; set; }
+            public bool isPublic { get; set; }
         }
 
     }
