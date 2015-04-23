@@ -149,9 +149,9 @@ a {
         color: #0026ff; /* blue */
     }
 
-    a:hover {
-        background-color: #65FF29; /* green */
-    }
+    /*a:hover {
+        background-color: #65FF29;  green 
+    } */
 
 header, footer, hgroup,
 nav, section {

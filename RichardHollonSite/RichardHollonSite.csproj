@@ -117,6 +117,7 @@
     <Content Include="App_Readme\git-cheatsheet.txt" />
     <Content Include="Blog.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\animate.css" />
     <Content Include="Content\Hyperlinks.xml">
       <SubType>Designer</SubType>
     </Content>

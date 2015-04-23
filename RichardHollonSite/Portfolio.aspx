@@ -13,7 +13,7 @@
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-
+    <link rel="stylesheet" href="Content/animate.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
@@ -21,6 +21,27 @@
         $(function () {
             $("#accordion").accordion();
         });
+
+        $(document).ready(function () {
+            var elems = $('[id^=img]');
+            $(elems).each(function () {
+                animationHover(this, 'bounce'); //add the bounce mechanism to each image
+            });
+        });
+
+        function animationHover(element, animation) {
+            element = $(element);
+            element.hover(
+                function () {
+                    element.addClass('animated ' + animation);
+                },
+                function () {
+                    //wait for animation to finish before removing classes
+                    window.setTimeout(function () {
+                        element.removeClass('animated ' + animation);
+                    }, 2000);
+                });
+        }
     </script>
 
     <!-- Google Analytics Script -->
