@@ -383,5 +383,37 @@
 
                 Debug.Write(rows.Count.ToString());					 
             }            
+            
+            ///////////////
+            //generic parsing version
+            
+        public static IEnumerable GetFavoriteHyperlinks(int count)
+        {
+            using (StreamReader reader = File.OpenText(@"C:\TEA\JSONexample\JSONexample\Hyperlinks.json"))
+            {
+                JArray json = (JArray)JToken.ReadFrom(new JsonTextReader(reader));
+
+                var rows = JsonConvert.DeserializeObject<JArray>(json.ToString())
+                                .ToDictionary(x => (string)x["url"], x => (string)x["title"]);
+
+                return rows.Take(count);
+            }
+        }
+
+        public static StringBuilder GetRandomizedHyperlinks()
+        {
+
+            StringBuilder hyperlinks = new StringBuilder();
+            hyperlinks.Append("<div id='randomHyperlinks'><p><ul>");
+
+            foreach (KeyValuePair<string,string> v in GetFavoriteHyperlinks(25))
+            {
+                hyperlinks.Append(string.Format("<li><a href={0} target={1}>{2}</a></li>", v.Key, "_blank", v.Value));
+            }
+
+            hyperlinks.Append("</ul></p></div>");
+
+            return hyperlinks;
+        }            
 
 -->
