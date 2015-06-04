@@ -370,5 +370,18 @@
                      .ToDictionary(x => (string)x["url"], x => (string)x["title"]);
 
             Debug.Write(dict.Count.ToString());
+            
+            //////////////
+
+            //HttpContext.Current.Server.MapPath("~/Content/Hyperlinks.xml")
+            using (StreamReader reader = File.OpenText(@"C:\TEA\JSONexample\JSONexample\Hyperlinks.json"))
+            {
+                JArray json = (JArray)JToken.ReadFrom(new JsonTextReader(reader));
+
+                var rows = JsonConvert.DeserializeObject<JArray>(json.ToString())
+                                .ToDictionary(x => (string)x["url"], x => (string)x["title"]);
+
+                Debug.Write(rows.Count.ToString());					 
+            }            
 
 -->
