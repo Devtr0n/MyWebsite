@@ -358,4 +358,17 @@
 			]
 }}
 
+
+//parse JSON example:
+
+            string json = @"[{ 'title': 'Visual Studio 2012 - Pre-defined Keyboard Shortcuts', 															'url': 'http://msdn.microsoft.com/en-us/library/vstudio/da5kh0wa.aspx' },
+                            { 'title': 'NuGet Package of the Week #7 - ELMAH (Error Logging Modules And Handlers) with SQL Server Compact', 			'url': 'http://www.hanselman.com/blog/NuGetPackageOfTheWeek7ELMAHErrorLoggingModulesAndHandlersWithSQLServerCompact.aspx' },
+                            { 'title': 'Melissa Dreams of Sushi', 																						'url': 'http://melissadreamsofsushi.com' }
+                            ]";
+
+            var dict = JsonConvert.DeserializeObject<JArray>(json)
+                     .ToDictionary(x => (string)x["url"], x => (string)x["title"]);
+
+            Debug.Write(dict.Count.ToString());
+
 -->
