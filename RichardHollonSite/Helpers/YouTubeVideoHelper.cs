@@ -10,7 +10,10 @@ namespace RichardHollonSite.Helpers
         const string YOUTUBE_CHANNEL = "Blueberryfarm";
         const string YOUTUBE_DEVELOPER_KEY = "AI39si6TzOSnAZO-yDmYRg5l9yp_n7UiY5fRo5vyX-zb6JaVL1M8rZ5dhfYVJU2VBhQ6dHuQRdWFcMGhEh8_29mNgDudHWqSZA";
         const string YOUTUBE_VIDEO_TOTAL_COUNT = "50"; //total number of videos to pull from my Youtube channel
-
+        
+        //TO-DO: replace Youtube API with XML parser!!
+        //https://www.youtube.com/feeds/videos.xml?user=blueberryfarm
+        
         public static YouTubeVideoObject[] GetVideos()
         {
             YouTubeRequestSettings settings = new YouTubeRequestSettings(YOUTUBE_CHANNEL, YOUTUBE_DEVELOPER_KEY);
