@@ -77,37 +77,37 @@
     <br />
 
     <div class="youtube">
-        <h2><a href="http://www.youtube.com/Blueberryfarm" target="_blank">My YouTube Channel</a></h2>
+        <h2><a href="http://www.youtube.com/Blueberryfarm" target="_blank">My YouTube Channel (currently being remodeled.)</a></h2>
         <% 
             //let's get all videos from my Youtube channel and shuffle them!
-            var randomFeed = RandomizerHelper.Shuffle(YouTubeVideoHelper.GetVideos()).ToArray();
+            //var randomFeed = RandomizerHelper.Shuffle(YouTubeVideoHelper.GetVideos()).ToArray();
 
-            int videoWidth = 0, videoHeight = 0;
+            //int videoWidth = 0, videoHeight = 0;
             
-            if (Request.Browser.IsMobileDevice)
-            {
-                //mobile dimensions
-                videoWidth = 250;
-                videoHeight = 150;
-            }
-            else
-            {
-                //non-mobile dimensions
-                videoWidth = 450;
-                videoHeight = 250;                
-            }
+            //if (Request.Browser.IsMobileDevice)
+            //{
+            //    //mobile dimensions
+            //    videoWidth = 250;
+            //    videoHeight = 150;
+            //}
+            //else
+            //{
+            //    //non-mobile dimensions
+            //    videoWidth = 450;
+            //    videoHeight = 250;                
+            //}
             
             //let's only display 8, even though we fetched 50 or more :( //to-do: fix me, this is weak sauce
-            foreach (var v in randomFeed.Take(8).ToArray())
-            { %>
-                    <object>
+            //foreach (var v in randomFeed.Take(8).ToArray())
+            //{ %>
+<%--                    <object>
                         <param name="movie" value="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" />
                         <param name="allowFullScreen" value="true" />
                         <param name="allowscriptaccess" value="always"/>
                         <param name="wmode" value="opaque" />
                         <embed src="<%= String.Format("http://www.youtube.com/v/{0}", v.VideoId ) %>" type="application/x-shockwave-flash" width="<%= videoWidth %>" height="<%= videoHeight %>" />
-                    </object>
-        <% } %>
+                    </object>--%>
+        <% //} %>
     </div>
 
     <div>
@@ -119,6 +119,7 @@
             <li><a id="liMusic4" runat="server" target="_blank" href="http://www.weldonhenson.com/">Weldon Henson</a></li>
             <li><a id="liMusic5" runat="server" target="_blank" href="http://www.abc.net.au/triplej/player/triplej.htm">Triple J (Australian radio)</a></li>
             <li><a id="liMusic6" runat="server" target="_blank" href="http://kokefm.com/player.html">KOKE FM (Austin radio)</a></li>
+            <li><a id="liMusic7" runat="server" target="_blank" href="http://www.iheart.com/live/gold-1043-melbourne-6181/">Gold 104.3 Melbourne</a></li>
         </ul>
     </div>
 
